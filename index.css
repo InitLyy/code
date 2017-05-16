@@ -704,7 +704,7 @@ dt {
 .phone:hover .phone-dropdown{
 	display: block;
 }
-.icon-phone{
+.icon_phone{
 	width: 18px;
 	height: 30px;
 	display: flex;
@@ -713,7 +713,7 @@ dt {
 	margin-right: 5px;	
 
 }
-.icon-phone .iconfont{
+.icon_phone .iconfont{
 	font-size: 19px;
 	color: #e3101e;
 }
@@ -808,7 +808,7 @@ dt {
 	margin: 14px 17px;
 	width: 18px;
 	height: 12px;
-	background: url(../img/ui.png) 0 -1344px;
+	background: url(img/ui.png) 0 -1344px;
 	overflow: hidden;
 	color: #fff;
 }
@@ -1432,7 +1432,7 @@ dt {
 	width: 17px;
     height: 9px;
     margin-top: 10px;
-	background:url(img/arrow_ui.png) -216px -52px no-repeat;
+	background:url(img/ui_s.png) -216px -52px no-repeat;
 }
 .fl_goto_top:hover .top{
 	background-position:  -216px -78px;
@@ -1442,13 +1442,23 @@ dt {
 	width: 17px;
     height: 9px;
     margin-top: 10px;
-	background:url(img/arrow_ui.png) -216px 0 no-repeat;
+	background:url(img/ui_s.png) -216px 0 no-repeat;
 }
 .fl_goto_bottom:hover .bottom{
 	background-position: -216px -26px;
 }
 
-
+.ele_pic .eti{
+	float: left;
+    overflow: hidden;
+    margin-left: -1px;
+    margin-top: -1px;
+    width: 10px;
+    height: 10px;
+    background: url(img/ui_s.png) -152px 0 no-repeat;
+    z-index: 2;
+    display: block;
+}
 
 
 

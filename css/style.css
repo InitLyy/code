@@ -17,7 +17,6 @@ a:hover {
 	url('//at.alicdn.com/t/font_1yv8oxn842yy14i.woff') format('woff'),
 	url('//at.alicdn.com/t/font_1yv8oxn842yy14i.ttf') format('truetype'),
 	url('//at.alicdn.com/t/font_1yv8oxn842yy14i.svg#iconfont') format('svg');
-
 }
 
 .iconfont{
@@ -92,7 +91,7 @@ a:hover {
 	width: 200px;
     height: 450px;
     background: #333;
-    opacity: 0.9;
+    opacity: .9;
     position: absolute;
     top: 0;
     left: 0;
@@ -340,35 +339,44 @@ a:hover {
 
 /*轮播图-lubo*/
 .lubo {
-	height: 450px;
-	width: 750px; 
+	width: 100%;
+	height: 450px; 
 	position: relative;
+	left: 0;
 	top: 0;
-	margin-top: 2px;
+	/*margin-top: 2px;*/
 	float: left;
-	z-index: 1;
+	z-index: 0;
 }
 
 .lubo_box { 
+	width: 100%;
 	position: relative; 
-	width: 100%; 
 	height:450px; 
 }
 
 .lubo_box li { 
-	position: absolute; 
-	top: 0; 
-	left: 0; 
-	width: 100%; 
+	width: 100%;
+	position: absolute;
 	height:450px; 
 	opacity: 0;
 }
 
-.lubo_box li a { 
-	display: block;
+.lubo_box li .back-col {
+	width: 100%;
+	height: 450px;
 	position: absolute;
-	width: 100%;  
-	height: 100%;
+	z-index: -1;
+}
+
+.lubo_box li a { 
+	display: block; 
+	position: relative;
+	margin: 0 auto;
+	left: -25px;
+	top: 0px;
+	width: 750px;
+	height: 450px;
 }
 
 .lubo_box li img { 
@@ -389,8 +397,8 @@ a:hover {
 	height: 5px; 
 	margin:0 5px; 
 	cursor: pointer; 
-	background: #333; 
-	opacity: 0.8;
+	background: #666; 
+	opacity: 0.7;
 }
 
 .cir_on { 
@@ -399,16 +407,15 @@ a:hover {
 
 /*按钮*/
 .lubo_btn { 
-	position: absolute; 
-	width: 100%; 
-	top: 140px;
+	position: relative;
+	left: 50%;
+	top: -260px;
+	width: 350px;
 }
 
-.left_btn, .right_btn { 
+.left_btn, .right_btn, .back1, .back2{ 
 	width: 40px; 
 	height: 80px; 
-	background: #000;
-	opacity: .3;
 	cursor: pointer; 
 	color: #fff; 
 	line-height: 80px; 
@@ -420,17 +427,41 @@ a:hover {
 	user-select:none;
 }
 
-.left_btn { 
-	float: left;
-	margin-left: 669px;
+.left_btn {
+	position: relative;
+	margin-left: 269px;
+	top: -80px;
+	left:0;
+	background: url(../img/ui_s.png) 0 -112px no-repeat;
+}
+
+.back1 {
+	position: relative;
+	left: 0;
+	margin-left: 269px;
+	background: #000;
+	opacity: .3;
 }
 
 .left_btn:hover { 
 	opacity: .6;
 }
 
+.back2 {
+	position: relative;
+	top: -160px;
+	left: 41px;
+	margin-left: 269px;
+	background: #000;
+	opacity: .3;
+}
+
 .right_btn { 
-	float: right;
+	position: relative;
+	top: -240px;
+	margin-left: 269px;
+	left: 41px;
+	background: url(../img/ui_s.png) -42px -112px no-repeat;
 }
 
 .right_btn:hover {
@@ -691,7 +722,7 @@ a:hover {
 
 .wrap-box {
 	width: 250px;
-	height: 172px;
+	height: 177px;
 	background-color: #fff;
 	position: absolute;
 	display: none;
@@ -701,7 +732,7 @@ a:hover {
 .wrap-list {
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
-	height: 172px;
+	height: 177px;
 	width: 250px;
 	overflow: hidden;
 	padding: 0;
@@ -709,10 +740,20 @@ a:hover {
 
 .listtab {
 	width: 250px;
-	height: 172px;
+	height: 177px;
 	overflow: hidden;
 	background: #fff;
 	display: none;
+}
+
+.ser_cur {
+	display: block;
+	font-size: 1px;
+	position: absolute;
+	width: 7px;
+	height: 5px;
+	top: -4px;
+	background: url(../img/ui_s.png) -152px -26px no-repeat;
 }
 
 .nav1 {
@@ -795,6 +836,7 @@ a:hover {
 .sel-gro {
 	float: left;
 	position: relative;
+	cursor: pointer;
 }
 
 .sel2 {
@@ -813,6 +855,35 @@ a:hover {
 	float: left;
 	vertical-align: middle;
 	font-size: 11px;
+}
+
+ul .sel-ls {
+	display: none;
+	height: 157px;
+	margin-top: -104px;
+	overflow-y: scroll;
+	width: 68px;
+	list-style: none;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	z-index: 15;
+	display: none;
+	overflow: auto;
+	background-color: #fff;
+	border: 1px solid #e6e6e6;
+	color: #a5a5a5;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+	cursor: pointer;
+	font: 400 12px/1.5 "microsoft yahei", SimSun, Tahoma, Helvetica, sans-serif;
+}
+
+ul .sel-ls li{
+	height: 25px;
+	line-height: 25px;
+	text-align: left;
+	padding-left: 5px;
+	overflow: hidden;
 }
 
 .dpdown {
@@ -842,11 +913,14 @@ a:hover {
 	line-height: 15px;
 	vertical-align: middle;
 	color: #d02626;
+	font-weight: 700;
 	padding-left: 5px;
+	font: 400 12px/1.5 "microsoft yahei", SimSun, Tahoma, Helvetica, sans-serif;
 }
 
 .foot-line {
 	margin-top: 5px;
+	cursor: pointer;
 }
 
 .foot-line .botton {
@@ -861,6 +935,10 @@ a:hover {
 	color: #0066cc;
 	float: left;
 	padding: 3px 10px;
+}
+
+.foot-line .ad:hover {
+	text-decoration: underline;
 }
 
 .nav2, .nav4 {
@@ -961,6 +1039,7 @@ a:hover {
 	line-height: 20px;
 	color: #666;
 	font: "宋体";
+	cursor: pointer;
 }
 
 .hot-icon span:hover {
@@ -980,6 +1059,7 @@ a:hover {
 	font-size: 12px;
 	margin-top: 5px;
 	height: 160px;
+	z-index: 1;
 }
 
 .game-card tbody tr {
@@ -987,16 +1067,68 @@ a:hover {
 	line-height: 30px;
 	margin-top: 5px;
 	display: flex;
+	cursor: pointer;
 }
 
 .game-crad td {
 	padding: 6px 0;
 	float: left;
+	cursor: pointer;
+}
+
+.dpdown {
+	z-index: 2;
+}
+
+.data-list {
+	display: none;
+	width: 96px;
+	height: 142px;
+	border: 1px solid #e6e6e6;
+	background-color: #fff;
+	position: absolute;
+	top: 16px;
+	left: 51px;
+	z-index: 20;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	box-shadow: 3px 5px 0 rgba(0, 0, 0, .35);
+	cursor: pointer;
+}
+
+.datalist2 {
+	height: 92px;
+	top: 50px;
+}
+
+.data-list li {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	line-height: 18px;
+	padding: 0 2px 0 3px;
+	overflow-x: hidden;
+	text-indent: 5px;
 }
 
 .game-card .lable {
 	/*width: 20%;*/
 	line-height: 30px;
+}
+
+.radio-group {
+	width: 200px;
+}
+
+.radio, .checked{
+	width: 16px;
+	height: 20px;
+	margin-top: 5px;
+	background: url('../img/game.png') no-repeat 0 -360px;
+	float: left;
+}
+
+.checked {
+	background-position: 0 -322px;
 }
 
 .td-sel {
@@ -1014,7 +1146,7 @@ a:hover {
 }
 
 .td-sel1 {
-	width: 84px;
+	width: 96px;
 	margin-right: 5px;
 }
 
@@ -1050,6 +1182,16 @@ a:hover {
 	font-size: 12px;
 }
 
+.value span {
+	color: #e3101e;
+	font-size: 13px;
+	height: 30px;
+	line-height: 30px;
+	padding: 4px 0 0 4px;
+	float: left;
+	font: 400 12px/1.5 "microsoft yahei";
+}
+
 .nowpay {
 	margin-top: 10px;
 }
@@ -1068,6 +1210,11 @@ a:hover {
 	text-align: center;
 }
 
+.nowpay-a:hover {
+	color: #fff;
+	background: #c00;
+}
+
 .ad-a {
 	color: rgb(227, 16, 30);
 	text-align: left;
@@ -1078,6 +1225,10 @@ a:hover {
 	float: left;
 	width: 135px;
 	height: 24px;
+}
+
+.ad-a:hover {
+	color: rgb(227, 16, 30);
 }
 
 .list4 {
@@ -1153,6 +1304,11 @@ a:hover {
 	line-height: 26px;
 	text-align: center;
 	color: #fff;
+	cursor: pointer;
 }
 
+.btn-search:hover {
+	color: #fff;
+	background: #c00;
+}
 

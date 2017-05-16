@@ -80,7 +80,7 @@
 
 				var _btn=jQuery('.lubo_btn');
 
-				_btn.append('<div class="left_btn"><</div><div class="right_btn">></div>');
+				_btn.append('<div class="back1"></div><div class="left_btn"></div><div class="back2"></div><div class="right_btn"></div>');
 
 				var leftBtn=jQuery('.left_btn');
 

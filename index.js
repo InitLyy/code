@@ -41,9 +41,17 @@ function togseabar(e) {
             $('.navbar-fixed-top').css('visibility','hidden');  
         }  
     }
+    if (sTop >= 1102&&sTop<=3000) {  
+        if ($('.elevator').css('visibility')=='hidden') {
+            $('.elevator').css('visibility','visible');                       
+        }  
+    }  
+    else {  
+        if ($('.elevator').css('visibility')=='visible') {  
+            $('.elevator').css('visibility','hidden');  
+        }  
+    }
  }
-
-
 $('.fl_goto_top').click(function(){
 	scrollTo(0,0);
 })
@@ -80,3 +88,15 @@ $('.ele_pic #ele-8').click(function(){
 $('.ele_pic #ele-9').click(function(){
 	scrollTo(0,2300);
 })
+// function runTopos(cur,aim){
+// 	currentPosition-=10;
+// 	if(currentPosition>0)
+// 	{
+// 		window.scrollTo(0,currentPosition);
+// 	}
+// 	else
+// 	{
+// 		window.scrollTo(0,0);
+// 		clearInterval(timer);
+// 	}
+// }
