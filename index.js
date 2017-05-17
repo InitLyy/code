@@ -92,6 +92,26 @@ $('.ele_pic #ele-9').click(function(){
 $('.aside-backtop').click(function(){
 	scrollTo(0,0);
 })
+
+$('.bar-tab-cart').click(function(){
+	var cur=parseInt($('.shop-box2').css('right'));
+	if(cur==35){
+		$('.shop-box2').css('right','-205px');
+		$('.bar-tab-cart').css('background','#5c5c5c');
+		$('.bar-tab .bar-tab-cart .car-arrow').css('background-position',' -47px -464px');
+	}
+	else if(cur==-205){
+		$('.shop-box2').css('right','35px');
+		$('.bar-tab-cart').css('background','#343434');
+		$('.bar-tab .bar-tab-cart .car-arrow').css('background-position',' -40px -464px');
+	}
+	
+})
+$('.close-box').click(function(){
+	$('.shop-box2').css('right','-205px');
+	$('.bar-tab-cart').css('background','#5c5c5c');
+	$('.bar-tab .bar-tab-cart .car-arrow').css('background-position',' -47px -464px');
+})
 // function runTopos(cur,aim){
 // 	currentPosition-=10;
 // 	if(currentPosition>0)

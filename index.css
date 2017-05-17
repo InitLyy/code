@@ -1903,7 +1903,54 @@ dt {
 }
 
 
-
+.shop-box2{
+	position: absolute;
+    width: 239px;
+    height: 100%;
+    top: 0;
+    /*right: 35px;*/
+    right: -205px;
+    z-index: 995;
+    border-left: 1px solid #e6e6e6;
+    background: #fff;
+    overflow: hidden;
+    z-index: 997;
+    box-sizing: content-box;
+    font: 12px/1.5 arial,"\65b0\5b8b\4f53";
+    font-family: Arial,"Microsoft Yahei";
+    -webkit-transform: translate(150%,0);
+    transform: translate(0px, 0px);
+    transition: all 0.2s ease-out;
+    
+}
+.shop-box2 h3{
+	height: 30px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.shop-box2 .close-box{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 0;
+    background: url(img/ui.png) -20px -553px;
+    cursor: pointer;
+    margin-left: 26px;
+    
+}
+.shop-box2 .noshop{
+	position: relative;
+    text-align: center;
+    line-height: 100px;
+    color: #A5A5A5;
+}
+.shop-box2 .noshop a {
+	color: -webkit-link;
+	color: #2323f0;
+	text-decoration: underline;
+}
 
 
 
