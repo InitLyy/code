@@ -11,15 +11,15 @@ a:hover {
 }
 
 @font-face {
-	font-family: 'iconfont';  /* project id 298247 */
-	src: url('//at.alicdn.com/t/font_1yv8oxn842yy14i.eot');
-	src: url('//at.alicdn.com/t/font_1yv8oxn842yy14i.eot?#iefix') format('embedded-opentype'),
-	url('//at.alicdn.com/t/font_1yv8oxn842yy14i.woff') format('woff'),
-	url('//at.alicdn.com/t/font_1yv8oxn842yy14i.ttf') format('truetype'),
-	url('//at.alicdn.com/t/font_1yv8oxn842yy14i.svg#iconfont') format('svg');
+  font-family: 'iconfont';  /* project id 298247 */
+  src: url('//at.alicdn.com/t/font_j9mklh8e21iw9udi.eot');
+  src: url('//at.alicdn.com/t/font_j9mklh8e21iw9udi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_j9mklh8e21iw9udi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_j9mklh8e21iw9udi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_j9mklh8e21iw9udi.svg#iconfont') format('svg');
 }
 
-.iconfont{
+.iconfont-cyl {
   font-family:"iconfont" !important;
   font-size: 32px;
   color: #373737;

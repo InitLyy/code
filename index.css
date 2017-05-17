@@ -217,7 +217,8 @@ ul{
   url('iconfont.ttf') format('truetype'),
   url('iconfont.svg#iconfont') format('svg');
 }
-.iconfont{
+
+.iconfont-lh{
   font-family:"iconfont" !important;
   font-size:35px;
   font-style:normal;
@@ -485,7 +486,7 @@ ul{
 	align-items: center;
 	margin-right: 5px;	
 }
-.icon-serve .iconfont{
+.icon-serve .iconfont-lh{
 	font-size: 19px;
 	color: #e3101e;
 }
@@ -537,7 +538,7 @@ ul{
 	text-decoration: none;
 	color: #fff;
 }
-.live-server .iconfont{
+.live-server .iconfont-lh{
 	font-size: 19px;
     height: 25px;
     color: #fff;
@@ -713,7 +714,7 @@ dt {
 	margin-right: 5px;	
 
 }
-.icon_phone .iconfont{
+.icon_phone .iconfont-lh{
 	font-size: 19px;
 	color: #e3101e;
 }
