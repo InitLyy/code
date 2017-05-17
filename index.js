@@ -88,6 +88,10 @@ $('.ele_pic #ele-8').click(function(){
 $('.ele_pic #ele-9').click(function(){
 	scrollTo(0,2300);
 })
+
+$('.aside-backtop').click(function(){
+	scrollTo(0,0);
+})
 // function runTopos(cur,aim){
 // 	currentPosition-=10;
 // 	if(currentPosition>0)

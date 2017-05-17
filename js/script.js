@@ -8,7 +8,7 @@ function scroll() {
 		x=y;
 		y=z;
 	}
-	setTimeout(scroll,3000);
+	t=setTimeout('scroll()',3000);
 }
 
 function Slide() {
@@ -156,7 +156,33 @@ $(document).ready(function() {
 	x = $('.scroll_li');
 	y = $('.temp');
 	h = $('.scroll_li li').length * 40;
-	setTimeout(scroll, 3000);
+	t = setTimeout(scroll, 3000);
+	$(".up").click(function(){
+		clearTimeout(t);
+		t = parseInt(x.css('top'));
+		y.css('top', '40px');	
+		x.animate({top: t - 40 + 'px'}, 'slow');
+		if(Math.abs(t) == h - 40) {
+			y.animate({top:'0px'}, 'slow');
+			z=x;
+			x=y;
+			y=z;
+		}
+		setTimeout(scroll, 3000);
+	});
+	$(".down").click(function(){
+		clearTimeout(t);
+		t = parseInt(x.css('top'));
+		y.css('top', '40px');	
+		x.animate({top: t + 40 + 'px'}, 'slow');
+		if(Math.abs(t) == h - 120) {
+			y.animate({top:'-80px'}, 'slow');
+			z=x;
+			x=y;
+			y=z;
+		}
+		setTimeout(scroll, 3000);
+	});
 	Slide();
 	nav1();
 	nav2();
