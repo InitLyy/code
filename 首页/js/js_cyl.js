@@ -198,7 +198,7 @@ $(document).ready(function() {
 })
 
 $(function(){
-    $(".lubo").lubo({
+    $(".slide").SlideImg({
     });
 })
 

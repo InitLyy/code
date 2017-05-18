@@ -1,6 +1,6 @@
 ;(function($){
 	
-	$.fn.lubo=function(options){
+	$.fn.SlideImg=function(options){
 		
 		// var defaults={
 
@@ -11,13 +11,13 @@
 		
 		return this.each(function(){
 
-			var _lubo=jQuery('.lubo');
+			var _slide=jQuery('.slide');
 
-			var _box=jQuery('.lubo_box');
+			var _box=jQuery('.slide_box');
 
 			var _this=jQuery(this); // 
 
-			var luboHei=_box.height();
+			var slideHei=_box.height();
 
 			var Over='mouseover';
 
@@ -35,7 +35,7 @@
 
 			var cirlen=_box.children(Li).length; //圆点的数量  图片的数量
 
-			var luboTime=4000; //轮播时间
+			var slideTime=4000; //轮播时间
 
 			var switchTime=400;//图片切换时间
 
@@ -47,7 +47,7 @@
 
 			function cir(){
 
-				_lubo.append('<ul class="cir_box"></ul>');
+				_slide.append('<ul class="cir_box"></ul>');
 
 				var cir_box=jQuery('.cir_box');
 
@@ -76,9 +76,9 @@
 
 			function Btn(){
 
-				_lubo.append('<div class="lubo_btn"></div>');
+				_slide.append('<div class="slide_btn"></div>');
 
-				var _btn=jQuery('.lubo_btn');
+				var _btn=jQuery('.slide_btn');
 
 				_btn.append('<div class="back1"></div><div class="left_btn"></div><div class="back2"></div><div class="right_btn"></div>');
 
@@ -148,7 +148,7 @@
 
 		//定时器
 
-			 int=setInterval(clock,luboTime);
+			 int=setInterval(clock,slideTime);
 
 			 function clock(){
 
@@ -178,15 +178,15 @@
 
 		// 鼠标在图片上 关闭定时器
 			
-			_lubo.bind(Over,function(){
+			_slide.bind(Over,function(){
 
 				clearTimeout(int);
 
 			});
 
-			_lubo.bind(Out,function(){
+			_slide.bind(Out,function(){
 
-				int=setInterval(clock,luboTime);
+				int=setInterval(clock,slideTime);
 
 			});
 

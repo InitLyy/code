@@ -337,8 +337,8 @@ a:hover {
 	height: 180px;
 }
 
-/*轮播图-lubo*/
-.lubo {
+/*轮播图-slide*/
+.slide {
 	width: 100%;
 	height: 450px; 
 	position: relative;
@@ -349,27 +349,27 @@ a:hover {
 	z-index: 0;
 }
 
-.lubo_box { 
+.slide_box { 
 	width: 100%;
 	position: relative; 
 	height:450px; 
 }
 
-.lubo_box li { 
+.slide_box li { 
 	width: 100%;
 	position: absolute;
 	height:450px; 
 	opacity: 0;
 }
 
-.lubo_box li .back-col {
+.slide_box li .back-col {
 	width: 100%;
 	height: 450px;
 	position: absolute;
 	z-index: -1;
 }
 
-.lubo_box li a { 
+.slide_box li a { 
 	display: block; 
 	position: relative;
 	margin: 0 auto;
@@ -379,7 +379,7 @@ a:hover {
 	height: 450px;
 }
 
-.lubo_box li img { 
+.slide_box li img { 
 	width: 750px; 
 	height: 450px;
 }
@@ -406,7 +406,7 @@ a:hover {
 }
 
 /*按钮*/
-.lubo_btn { 
+.slide_btn { 
 	position: relative;
 	left: 50%;
 	top: -260px;

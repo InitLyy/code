@@ -34,11 +34,20 @@ function togseabar(e) {
     if (sTop >= 621) {  
         if ($('.navbar-fixed-top').css('visibility')=='hidden') {
             $('.navbar-fixed-top').css('visibility','visible');                       
+        }
+        if ($('.aside-backtop').css('display')=='none') {
+        	$('.aside-blank').css('display','none');
+            $('.aside-backtop').css('display','block');
+
         }  
     }  
     else {  
         if ($('.navbar-fixed-top').css('visibility')=='visible') {  
             $('.navbar-fixed-top').css('visibility','hidden');  
+        } 
+        if ($('.aside-backtop').css('display')=='block') {
+        	$('.aside-blank').css('display','block');   
+            $('.aside-backtop').css('display','none');  
         }  
     }
     if (sTop >= 1102&&sTop<=3000) {  
