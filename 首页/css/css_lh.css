@@ -213,12 +213,12 @@ ul{
 	height: 70px;
 }
 @font-face {
-  font-family: 'iconfont';
-  src: url('iconfont.eot');
-  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
-  url('iconfont.woff') format('woff'),
-  url('iconfont.ttf') format('truetype'),
-  url('iconfont.svg#iconfont') format('svg');
+  font-family: "iconfont";
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"),
+  url("iconfont.woff") format("woff"),
+  url("iconfont.ttf") format("truetype"),
+  url("iconfont.svg#iconfont") format("svg");
 }
 
 .iconfont-lh{
@@ -793,7 +793,7 @@ dt {
 .topcategory h2 {
 	width: 200px;
     height: 40px;
-    font-family: 'Microsoft YaHei';
+    font-family: "Microsoft YaHei";
     background: #d7000f;
     position: relative;
     float: left;
@@ -819,7 +819,7 @@ dt {
 
 .topcategory h2 a {
     color: #fff;
-    font-family: 'Microsoft YaHei';
+    font-family: "Microsoft YaHei";
     font-weight: 400;
     font-size: 15px;
     line-height: 40px;
@@ -900,7 +900,7 @@ dt {
     padding: 0 0 0 15px;
     margin: 0 0 0 1px;
     line-height: 30px;
-    font-family: 'Microsoft YaHei', arial;
+    font-family: "Microsoft YaHei", arial;
 	font-weight: 200;
 }
 
@@ -910,7 +910,7 @@ dt {
     font-weight: 200px;
     line-height: 30px;
 	margin: 0 5px 0 0;
-	font-family: 'Microsoft YaHei', arial;
+	font-family: "Microsoft YaHei", arial;
 	font-weight: 200;
 	text-decoration: none;
 }
@@ -929,7 +929,7 @@ dt {
 	position: absolute;
 	left: 200px;
 	width: 1000px;
-	font-family: '新宋体 Arial';
+	font-family: "新宋体 Arial";
 	font-weight: 700;
 	z-index: -1;
 }
@@ -1153,7 +1153,7 @@ dt {
     cursor: pointer;
     float: right;
     background: #d7000f;
-    font: 16px/30px 'microsoft yahei';
+    font: 16px/30px "microsoft yahei";
     color: white;
     letter-spacing: 2px;
     text-indent: 0;
@@ -1171,7 +1171,7 @@ dt {
     align-items: center;
     justify-content: flex-start;
     font-size: 12px;
-    font-family: Arial,'Microsoft Yahei';
+    font-family: Arial,"Microsoft Yahei";
 }
 .topsearch .keyword a{
 	text-decoration:none;
@@ -1179,7 +1179,7 @@ dt {
     margin-right: 5px;
     color: #A5A5A5;
     height: 14px;
-    font-family: 'Microsoft Yahei';
+    font-family: "Microsoft Yahei";
     cursor: auto;
     overflow: hidden;
 }

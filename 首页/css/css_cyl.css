@@ -11,12 +11,12 @@ a:hover {
 }
 
 @font-face {
-  font-family: 'iconfont';  /* project id 298247 */
-  src: url('//at.alicdn.com/t/font_j9mklh8e21iw9udi.eot');
-  src: url('//at.alicdn.com/t/font_j9mklh8e21iw9udi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_j9mklh8e21iw9udi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_j9mklh8e21iw9udi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_j9mklh8e21iw9udi.svg#iconfont') format('svg');
+  font-family: "iconfont";  /* project id 298247 */
+  src: url("//at.alicdn.com/t/font_j9mklh8e21iw9udi.eot");
+  src: url("//at.alicdn.com/t/font_j9mklh8e21iw9udi.eot?#iefix") format("embedded-opentype"),
+  url("//at.alicdn.com/t/font_j9mklh8e21iw9udi.woff") format("woff"),
+  url("//at.alicdn.com/t/font_j9mklh8e21iw9udi.ttf") format("truetype"),
+  url("//at.alicdn.com/t/font_j9mklh8e21iw9udi.svg#iconfont") format("svg");
 }
 
 .iconfont-cyl {
@@ -63,12 +63,12 @@ a:hover {
     /*opacity: 0.9;*/
     margin: 0;
     padding: 0;
-    font-family: 'Microsoft YaHei';
+    font-family: "Microsoft YaHei";
 }
 
 .slidebar h2 a {
     color: #fff;
-    font-family: 'Microsoft YaHei';
+    font-family: "Microsoft YaHei";
     font-weight: 400;
     font-size: 15px;
     line-height: 40px;
@@ -147,7 +147,7 @@ a:hover {
     padding: 0 0 0 15px;
     margin: 0 0 0 1px;
     line-height: 30px;
-    font-family: 'Microsoft YaHei', arial;
+    font-family: "Microsoft YaHei", arial;
 	font-weight: 200;
 }
 
@@ -174,7 +174,7 @@ a:hover {
 	position: absolute;
 	left: 199px;
 	width: 1000px;
-	font-family: '新宋体 Arial';
+	font-family: "新宋体 Arial";
 	font-weight: 700;
 	z-index: -1;
 }
@@ -1199,7 +1199,7 @@ ul .sel-ls li{
 	width: 16px;
 	height: 20px;
 	margin-top: 5px;
-	background: url('../img/game.png') no-repeat 0 -360px;
+	background: url("../img/game.png") no-repeat 0 -360px;
 	float: left;
 }
 
