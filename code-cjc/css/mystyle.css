@@ -273,8 +273,8 @@ a:hover {
 .zwf-gome-help {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 20px;
 	margin: auto;
+	margin-top: 30px;
 	width: 1200px;
 }
 .zwf-gome-help ul {
