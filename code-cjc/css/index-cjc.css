@@ -3,17 +3,12 @@ div{
 	display: block;
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
 p:hover {
 	color: red;
 }
 
 .ui-main{
-	margin-left: 160px;
-	margin-right: 160px;
+	margin: auto;
 	width: 1200px;
 }
 .ui-title{
@@ -179,18 +174,21 @@ p:hover {
     display: flex;
     justify-content: center;
 }
+.wbox {
+   width:  1200px; 
+   margin: auto;
+   display: flex;
+}
 .ui-under-left{
 	width: 495px;
 	height: 431px;
     overflow: hidden;
-    margin-left: 159px;
 	display: flex;
 }
 .ui-under-right{
 	width: 720px;
     height: 431px;
     overflow: hidden;
-    margin-right: 158px;
     display: flex;
     margin-left: 10px;
 
@@ -405,8 +403,7 @@ p:hover {
 .ui-hot{
 	width: 1200px;
 	height: 400px;
-	margin-left: 159.2px;
-	margin-right: 159.2px;
+	margin: auto;
 	margin-top: 20px;
 }
 .ui-hot-left{
