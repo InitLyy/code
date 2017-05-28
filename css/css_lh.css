@@ -1341,7 +1341,7 @@ dt {
 	z-index: 980;
 	position: fixed;
 	left:14%;
-	top:35px;
+	top:10%;
 	background:#fff;
 	visibility: hidden;
 }
