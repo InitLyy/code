@@ -49,10 +49,8 @@
 
 				_slide.append('<ul class="cir_box"></ul>');
 
-				var cir_box=jQuery('.cir_box');
-
+				var cir_box = _slide.children('.cir_box');
 				for(var i=0; i<cirlen;i++){
-
 					cir_box.append('<li style="" value="'+i+'"></li>');
 				}
 
@@ -82,15 +80,15 @@
 
 				_btn.append('<div class="back1"></div><div class="left_btn"></div><div class="back2"></div><div class="right_btn"></div>');
 
-				var leftBtn=jQuery('.left_btn');
+				var leftBtn=_btn.children('.left_btn');
 
-				var rightBtn=jQuery('.right_btn');
+				var rightBtn=_btn.children('.right_btn');
 
 			//点击左面按钮
 
 				leftBtn.bind(Click,function(){
 
-				var cir_box=jQuery(_cirBox);
+				var cir_box = _slide.children('.cir_box');
 
 			 	var onLen=jQuery(_cirOn).val();	
 
@@ -120,7 +118,7 @@
 
 				rightBtn.bind(Click,function(){
 
-				var cir_box=jQuery(_cirBox);
+				var cir_box = _slide.children('.cir_box');
 
 			 	var onLen=jQuery(_cirOn).val();	
 
@@ -239,8 +237,8 @@
 /*css样式*/
 
 // <style type="text/css">
-//   *{ margin:0; padding:0; }
 //   img{ display: block; border:none;}
+//   *{ margin:0; padding:0; }
 //   ul,li{ list-style: none;}
 //   .lubo{ width: 100%;clear: both; position: relative; height:368px;}
 //   .lubo_box{ position: relative; width: 100%; height:368px; }

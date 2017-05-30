@@ -197,57 +197,23 @@
 						</span>
 					</a>
 					<div class="serve-dropdown">
-						<p>
-							<a href="">售后服务</a>
-						</p>
-						<ul>
-							<li>
-								<a href="">物流与配送</a>
-							</li>
-							<li>
-								<a href="">上门安装</a>
-							</li>
-							<li>
-								<a href="">退换货服务</a>
-							</li>
-							<li>
-								<a href="">手机维修</a>
-							</li>
-							<li>
-								<a href="">延保服务</a>
-							</li>
-							<li>
-								<a href="">家电回收</a>
-							</li>
-						</ul>
-						<p>
-							<a href="">帮助服务</a>
-						</p>
-						<ul>
-							<li>
-								<a href="">焦点问题</a>
-							</li>
-							<li>
-								<a href="">账户安全</a>
-							</li>
-							<li>
-								<a href="">签收与验货</a>
-							</li>
-							<li>
-								<a href="">分期付款</a>
-							</li>
-							<li>
-								<a href="">退款说明</a>
-							</li>
-							<li>
-								<a href="">优惠券说明</a>
-							</li>
-						</ul>
 						<a href="" class="live-server">
 							<i class="iconfont-lh">&#xe62a;</i>
 							在线客服
 						</a>
 					</div>
+					<script id="tmp1" type="text/x-jsrender">
+						{{for serveritem}}
+							<p>
+								<a href="">{{:ptitle}}</a>
+							</p>
+							<ul id="serveul">
+								{{for ultitle}}
+								<li><a href="">{{:#data}}</a></li>
+								{{/for}}
+							</ul>
+						{{/for}}
+					</script>
 				</li>
 				<li class="sitemap">
 					<a href="" class="sitemap-box">
@@ -256,233 +222,25 @@
 							<i class="fa fa-angle-up"></i>
 						</span>
 					</a>
-					<div class="sitemap-dropdown">
-						<dl class="none">
-							<dt>主题促销</dt>
-							<dd>
-							<ul>
-								<li>
-									<a href="">真划算</a>
-								</li>
-								<li>
-									<a href="">抢购</a>
-								</li>
-								<li>
-									<a href="">海外购</a>
-								</li>
-								<li>
-									<a href="">国美定制</a>
-									<i class="new"></i>
-								</li>
-							</ul>
-							<ul>
-								<li>
-									<a href="">家电城</a>
-								</li>
-								<li>
-									<a href="">服饰城</a>
-								</li>
-								<li>
-									<a href="">国美超市</a>
-								</li>
-								<li>
-									<a href="">家装管</a>
-								</li>
-							</ul>
-							<ul>
-								<li>
-									<a href="">智能家居</a>
-								</li>
-								<li>
-									<a href="">今日特卖</a>
-								</li>
-								<li>
-									<a href="">新品抢先</a>
-								</li>
-								<li>
-									<a href="">品牌街</a>
-								</li>
-							</ul>
-							</dd>
-						</dl>
-						<dl>
-							<dt>特色分类</dt>
-							<dd>
-							<ul>
-								<li>
-									<a href="">电视影音</a>
-								</li>
-								<li>
-									<a href="">冰洗</a>
-								</li>
-								<li>
-									<a href="">洗衣机</a>
-								</li>
-								<li>
-									<a href="">空调</a>
-								</li>
-								<li>
-									<a href="">厨卫生活</a>
-								</li>
-							</ul>
-							<ul>
-								<li>
-									<a href="">手机</a>
-								</li>
-								<li>
-									<a href="">数码</a>
-								</li>
-								<li>
-									<a href="">电脑办公</a>
-								</li>
-								<li>
-									<a href="">精品配件</a>
-								</li>
-								<li>
-									<a href="">汽车</a>
-								</li>
-							</ul>
-							<ul>
-								<li>
-									<a href="">住宅家具</a>
-								</li>
-								<li>
-									<a href="">家装建材</a>
-								</li>
-								<li>
-									<a href="">家居日用</a>
-								</li>
-								<li>
-									<a href="">床品家纺</a>
-								</li>
-								<li>
-									<a href="">黄金收藏</a>
-								</li>
-							</ul>
-							<ul>
-								<li>
-									<a href="">服饰鞋帽</a>
-								</li>
-								<li>
-									<a href="">运动户外</a>
-								</li>
-								<li>
-									<a href="">箱包奢品</a>
-								</li>
-								<li>
-									<a href="">钟表首饰</a>
-								</li>
-								<li>
-									<a href="">文化艺术</a>
-								</li>
-							</ul>
-							<ul>
-								<li>
-									<a href="">食品酒水</a>
-								</li>
-								<li>
-									<a href="">医疗保健</a>
-								</li>
-								<li>
-									<a href="">母婴玩具</a>
-								</li>
-								<li>
-									<a href="">美妆个护</a>
-								</li>
-							</ul>
-							</dd>
-						</dl>
-						<dl>
-							<dt>便捷服务</dt>
-							<dd>
-							<ul>
-								<li>
-									<a href="">话费充值</a>
-								</li>
-								<li>
-									<a href="">游戏点卡</a>
-								</li>
-								<li>
-									<a href="">机票</a>
-								</li>
-								<li>
-									<a href="">电影票</a>
-								</li>
-								<li>
-									<a href="">美盈宝</a>
-								</li>
-								<li>
-									<a href="">定期理财</a>
-								</li>
-								<li>
-									<a href="">转让理财</a>
-								</li>
-							</ul>
-							<ul>
-								<li>
-									<a href="">流量充值</a>
-								</li>
-								<li>
-									<a href="">酒店</a>
-								</li>
-								<li>
-									<a href="">火车票</a>
-								</li>
-								<li>
-									<a href="">演出票</a>
-								</li>
-								<li>
-									<a href="">投金宝</a>
-								</li>
-								<li>
-									<a href="">票据理财</a>
-								</li>
-								<li>
-									<a href="">上门服务</a>
-								</li>
-							</ul>
-							</dd>
-						</dl>
-						<dl>
-							<dt>更多热点</dt>
-							<dd>
-							<ul>
-								<li>
-									<a href="">商家入驻</a>
-								</li>
-								<li>
-									<a href="">企业采购</a>
-									<i class="hot"></i>
-								</li>
-								<li>
-									<a href="">国美社区</a>
-								</li>
-								<li>
-									<a href="">购明白</a>
-								</li>
-							</ul>
-							</dd>
-						</dl>
-						<dl>
-							<dt>国美旗下</dt>
-							<dd>
-							<ul>
-								<li>
-									<a href="">多边金都</a>
-								</li>
-								<li>
-									<a href="">国之美</a>
-								</li>
-								<li>
-									<a href="">国美家装</a>
-								</li>
-								<li>
-									<a href="">国美管家</a>
-								</li>
-							</ul>
-							</dd>
-						</dl>
-					</div>
+					<div class="sitemap-dropdown"></div>
+					<script id="tmp2" type="text/x-jsrender">
+						{{for mapitem}}
+							<dl>
+								<dt>{{:droptitle}}</dt>
+								<dd>
+									{{for droplist}}
+										<ul>
+											{{for listitem}}
+												<li>
+													<a href="">{{:#data}}</a>
+												</li>
+											{{/for}}
+										</ul>
+									{{/for}}
+								</dd>
+							</dl>
+						{{/for}}
+					</script>
 				</li>
 				<li class="space"></li>
 				<li class="phone">
@@ -552,98 +310,16 @@
 				</h2>
 				<div class="gray_opacity"></div>
 				<div class="category-list">
-					<ul class="category-ul">
-						<li>
-							<h3>
-								<a href="">电视影音</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">冰洗空调</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">厨卫大电</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">厨房小电</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">生活电器</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">净化设备</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">手机数码</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">电脑外设</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">家具建材</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">家居家纺</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">食品酒水</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">保健健康</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">汽车用品</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">个护化妆</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">母婴玩具</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">服饰鞋包</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">钟表首饰</a>
-							</h3>
-						</li>
-						<li>
-							<h3>
-								<a href="">运动户外</a>
-							</h3>
-						</li>
-					</ul>
+					<ul class="category-ul"></ul>
+					<script id="cate_tmp" type="text/x-jsrender">
+						{{for category_name}}
+							<li>
+								<h3>
+									<a href="">{{:#data}}</a>
+								</h3>
+							</li>
+						{{/for}}
+					</script>
 				</div>				
 			</div>
 			<ul class="main-nav">
@@ -724,32 +400,14 @@
 		</div>
 		<div class="group-selectedBrands">
 			<h2>品牌团</h2>
-			<ul class="selectedBrands-box">
-				<li>
-					<a href=""><img src="img/brands-li1.jpg"></a>
-				</li>
-				<li>
-					<a href=""><img src="img/brands-li2.jpg"></a>
-				</li>
-				<li>
-					<a href=""><img src="img/brands-li3.jpg"></a>
-				</li>
-				<li>
-					<a href=""><img src="img/brands-li4.jpg"></a>
-				</li>
-				<li>
-					<a href=""><img src="img/brands-li5.jpg"></a>
-				</li>
-				<li>
-					<a href=""><img src="img/brands-li6.jpg"></a>
-				</li>
-				<li>
-					<a href=""><img src="img/brands-li7.jpg"></a>
-				</li>
-				<li>
-					<a href=""><img src="img/brands-li8.jpg"></a>
-				</li>
-			</ul>
+			<ul class="selectedBrands-box"></ul>
+			<script id="tmp3" type="text/x-jsrender">
+				{{for brand_img_path}}
+					<li>
+						<a href=""><img src="{{:#data}}"></a>
+					</li>
+				{{/for}}
+			</script>
 		</div>
 		<div class="group-products">
 			<div class="group-products-title">
@@ -782,2090 +440,68 @@
 					</li>
 				</ul>
 			</div>
-			<div class="group-products-list">
-				<!--页面1-->
-				<ul id="product_list_1">
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-1.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">TOTO淋浴花洒组合龙头DM313R +手持花洒DM706CMFR(龙头+花洒)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								488.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">57</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-2.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">谷源道 盱眙熟制龙虾 盱眙小龙虾 十三香 麻辣小龙虾 蒜香 多口味可选25-37只 4-6钱/1只1500g 海鲜水产(十三香)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								88.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">62</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-3.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">飞利浦（PHILIPS）43PFF5021/T3 43英寸1080P全高清智能上网LED液晶电视机安卓著彩电</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								2368.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">58</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-4.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a class="self" href="">联想(Lenovo)天逸310 15.6英寸笔记本【i5-6200U 4G 硬盘升级至1T 2G独显 正版office2016】黑</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								3399.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">72</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-5.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">iPhone6s、6s plus更换电池</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								152.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">0</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-6.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">飞利浦（PHILIPS）40PFF5021/T3 40英寸 全高清安卓网络智能平板液晶电视</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1988.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">18</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-7.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">南极人冰丝凉席1.5/1.8米凉席三件套单人双人可折叠席子空调席A(盛世牡丹紫 1.5m（5英尺）床)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								39.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">158</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-8.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">A.O.史密斯 F160 金圭内胆电热水器 双棒速热清洁节能 60L 下单送延保金卡！前10名下单送刀具！</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								2268.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">47</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-9.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">美的 4L圆动力电饭煲 MB-WFS4017TM（巧克力色 支持24小时预约 立体加热）</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								279.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">18</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-10.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">苏泊尔电热水壶SWF15E19A马卡龙紫</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								89.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">8</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-11.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">飞利浦 2100W超大功率 电吹风机HP8230 快速干发 55度恒温护发 </a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								129.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">83</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-12.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">飞利浦 电动剃须刀S520 /12全新的飞利浦S500系列剃须刀 AutoFocus 可旋转设计 剃须新体验</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								219.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">32</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-13.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">艾美特 遥控落地扇FS4092R-WB</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								219.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">24</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-14.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">浦桑尼 克扫地机器人 JAZZ-S无线定位导航规划 家用全自动智能擦地机 吸尘器</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1199.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">31</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-15.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">王老吉凉茶310ml*6罐/塑包</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								23.80
-							</div>
-							<div class="pro-price-right">
-								<p class="count">223</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro1-16.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">耐克NIKE KAISHI 男子舒适透气系带休闲运动鞋 654473</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								319.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">21</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<!--页面2-->
-				<ul id="product_list_2">
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-1.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">康佳43英寸全高清电视</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1849.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">239</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-2.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">康佳32英寸蓝光节能电视</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1049.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">167</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-3.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">Philips/飞利浦 65PUF6059/T3</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								6299.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">105</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-4.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">索尼(SONY)KD-55X8000E 55英寸 4K超高清智能LED液晶平板电视 客厅电视</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								6589.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">454</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-5.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">松下(Panasonic) NR-C280WP-NL/NA 家用节能冰箱256升 变频三门无霜冰箱（典雅金）</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								3698.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">50</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-6.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">WEILI/威力 BCD-118MH 118升双门家用冰箱 不虚标 大尺寸冷藏冷冻电冰箱 制冷节 全国联保</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								729.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">27</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-7.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">三星(SAMSUNG) BCD-265WMTISE1 280升家用静音三门冰箱电脑温控 风冷无霜独立控温冷冻冷藏</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								2488.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">23</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-8.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">WEILI/威力 BCD-118MH 118升双门家用冰箱 不虚标 大尺寸冷藏冷冻电冰箱 制冷节 全国联保</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								729.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">27</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-9.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">伊莱克斯大1P 定频 冷暖 壁挂式空调 EAW26FD43BC4(Electrolux)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1499.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">142</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-10.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">伊莱克斯1.5P 定频 冷暖 壁挂式空调 EAW35FD13CA1(Electrolux)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1799.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">80</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-11.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">伊莱克斯2P 定频 冷暖 立柜式空调 EAF52FD13AB2(Electrolux)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								3598.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">18</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-12.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">伊莱克斯2P 定频 冷暖 圆柱式空调 EAF51FD13DA1白(Electrolux)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								3999.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">18</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-13.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">松下(Panasonic) XQG90-S9355 9公斤大容量全自动变频家用滚筒洗衣机</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								4988.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">33</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-14.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">小天鹅（LittleSwan）TB65-C1208H 6.5kg自动洗衣机波轮家用灰色</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1768.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">28</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-15.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">小天鹅 (LittleSwan) TG70-1210WXS 7KG 智能滚筒洗衣机</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1968.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">20</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro2-16.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">小天鹅(LittleSwan) TG70-1211DXS 7kg滚筒洗衣机 变频节能 家用</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								2158.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">14</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<!--页面3-->
-				<ul id="product_list_3">
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-1.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">微星(MSI)GT72 6QD-201XCN 17.3英寸游戏本(i7-6700HQ 8G 1T GTX970M G-SYNC 多彩背光)黑色</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								7899.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">9</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-2.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">华硕（ASUS）新升级顽石四代15.6英寸笔记本电脑FL5900UQ7500（i7-7500U 4G 1TB GT940MX 2G独显 FHD 预装office2016 Win10 深蓝</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								4199.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">60</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-3.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">联想（Lenovo）ideapad310S 14英寸轻薄本笔记本电脑 2G独显 win10(银色 I5-7200U/8G/512G)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								4699.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">14</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-4.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">华硕（ASUS）新升级顽石四代15.6英寸笔记本电脑FL5900UQ7500（i7-7500U 4G 512G SSD GT940MX 2G独显 FHD 预装office2016 Win10 红</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								5899.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">8</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-5.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">华硕（ASUS）新升级顽石四代15.6英寸笔记本电脑FL5900UQ7500（i7-7500U 4G 512G SSD GT940MX 2G独显 FHD 预装office2016 Win10 深蓝</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								5799.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">13</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-6.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">魅族 魅蓝Max 64GB 香槟金 移动联通电信4G手机</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1469.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">10</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-7.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">荣耀V9 全网通4G 官方标配6G+64G</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								2788.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">28</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-8.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">魅族 魅蓝Max 64GB 月光银 移动联通电信4G手机</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1469.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">10</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-9.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">联想(Lenovo)小新Air13 Pro版13.3英寸轻薄笔记本 940MX 2G FHD IPS 背光 指纹(银色 i5-7200/8G/256G固态)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								5279.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">5</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-10.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">戴尔（DELL）灵越 15UR-3748S 15.6英寸笔记本 I7-6500U/8G/1TB/DVDRW/Win10(皓月银 15UR-3748S)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								4488.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">8</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-11.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">华硕（ASUS）K556UQ V556UQ A556UQ7200 15.6英寸笔记本电脑7代i5-7200U 940MX(4G+1TB黑 官方标配)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								3588.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">6</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-12.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">华硕(ASUS) U3000UA7200 13英寸笔记本电脑 （i5-7200U 4G 256SSD）玫瑰金</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								4799.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">6</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-13.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">尼康（Nikon）D7100 单反套机（ AF-S 18-140mmf/3.5-5.6G ED VR 镜头）(官方标配)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								5680.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">12</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-14.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">耳宝/earbaby 方键无线蓝牙耳机4.0挂耳、耳塞式车载迷你商务运动听歌跑步通用(白 中文报号)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								19.90
-							</div>
-							<div class="pro-price-right">
-								<p class="count">20</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-15.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">森海塞尔/SENNHEISER MX375入耳式耳塞式苹果运动手机通用耳机erji</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								119.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">18</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro3-16.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">尼康（Nikon）D810 单反相机</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								14600.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">2</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<!--页面4-->
-				<ul id="product_list_4">
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-1.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">万家乐JSQ24-12201燃气热水器（天然气）</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1088.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">31</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-2.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">A.O.史密斯JSQ26-N1宽频恒温低压燃烧燃气热水器13升 下单送延保金卡！前10名下单送刀具！</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								3058.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">45</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-3.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">海尔40升电热水器 ES40H-C6(NE) 经济适用 专利防电墙 8年质保</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								699.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">69</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-4.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">美的烟灶套餐CXW-200-DJ570R+Q360B</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								2698.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">26</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-5.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">帅康烟灶套餐TE6710+35C（限时直降）</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								2599.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">40</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-6.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">海尔 50升电热水器 ES50H-C6经济适用 专利防电墙 8年质保</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								799.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">70</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-7.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">万和高端梅赛思燃气热水器JSQ22-11MQ23F-1</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1298.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">4</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-8.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">美的（Midea）JSQ22-12HWA(T) 燃气热水器（天然气热水器 免费上门安装 静音技术 12升）</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								1058.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">79</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-9.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">苏泊尔(SUPOR) PJ28R4 28cm 明火电磁炉通用 煎锅 专利火红点技术 灰色</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								139.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">55</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-10.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">美的（Midea）MY-QC50A5 电压力锅</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								249.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">36</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-11.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">美的 4L圆动力电饭煲 MB-WFS4017TM（巧克力色 支持24小时预约 立体加热）</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								279.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">18</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-12.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">奥克斯（AUX) HX-A5111 电热水壶烧水壶</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								77.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">12</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-13.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">飞利浦 2100W超大功率 电吹风机HP8230 快速干发 55度恒温护发 </a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								129.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">83</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-14.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">格力 遥控冷暖空调扇KS-0502RDa 冷风扇 (豪华冷暖款！！冷暖两用，远程遥控，15小时定时，强效制冷，2000W制热，畅享四季！！)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								698.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">28</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-15.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">泰昌(taicn)TC-2052养生足浴盆（金泰昌）</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								269.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">18</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro4-16.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">飞利浦剃须刀S510/12RQ310 312升级版 刀头荷兰全进口！全身水洗 贴合面部轮廓 自动精细调节剃须角度 精准切剃</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								299.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">39</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<!--页面5-->
-				<ul id="product_list_5">
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-1.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">雷士照明 LED筒灯3W全套筒灯一体超薄防雾开孔75-90公分天花(漆白款 3W暖白)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								9.90
-							</div>
-							<div class="pro-price-right">
-								<p class="count">1717</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-2.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">蜗家置物架 厨房层架塑料落地收纳储物架 浴室客厅整理架子四层Z614</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								18.90
-							</div>
-							<div class="pro-price-right">
-								<p class="count">668</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-3.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">南极人 可水洗夏凉薄被子(清馨花园 180*220cm)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								29.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">897</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-4.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">简爱空间 simlo 奈亚四层书柜 简约儿童书柜书架置物架收纳柜 书架层架 SXG2014(亮光粉枫)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								79.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">78</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-5.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">南极人家纺夏季藤席二三件套学生折叠凉席空调冰丝席子(罗马格 1.8m床)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								59.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">259</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-6.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">皇氏工匠免钉胶 液体钉 快干玻璃胶 镜子踢脚线密封 透明白色(【快干型】特惠白)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								14.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">69</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-7.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">蜗家衣帽架多功能落地挂衣架塑料挂钩衣服架 015Y(粉色)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								12.90
-							</div>
-							<div class="pro-price-right">
-								<p class="count">349</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-8.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">优衣库家纺 时尚印花空调被夏凉被春秋薄被(002 150*200)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								29.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">63</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-9.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">佛山照明集成吊顶面板灯300*300 12W 白光</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								49.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">101</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-10.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">优衣库家纺 简易可携带免安装自动魔术蒙古包蚊帐(紫色 1.8米床)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								39.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">254</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-11.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">南极人冰丝凉席1.5/1.8米凉席三件套单人双人可折叠席子空调席A(盛世牡丹金 1.5m（5英尺）床)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								39.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">283</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-12.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">罗格朗开关插座面板 仕典玉兰白斜五孔错位插座 十只装</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								119.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">35</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-13.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">华帝卫浴 厨房水槽单槽套装 304不锈钢加厚单盆洗菜盆 洗菜池单槽 H-A1005(58)-Q.1</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								398.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">248</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-14.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">明佳友 穿衣镜 试衣镜 镜子全身 落地梳妆镜M59(太阳花粉40*150)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								69.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">17</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-15.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">南极人蒙古包蚊帐免安装二开门钢丝折叠圆顶拉链1.8m1.5m床1.2米A(萌环米黄 1.8m（6英尺）床)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								45.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">114</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro5-16.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">佛山照明LED卧室灯25W三档调色</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								99.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">13</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<!--页面6-->
-				<ul id="product_list_6">
-					<li class="pro-gray">
-						<div class="pro-gray-img">
-							<a href=""><img src="img/pro6-1.jpg" class="gray"></a>
-						</div>	
-						<div class="pro-gray-info">
-							<a href="">圣牧全程有机精品装纯牛奶全脂纯牛奶200ml*12盒/1箱</a>
-						</div>
-						<div class="pro-gray-price">
-							<div class="pro-gray-price-left">
-								<span>¥</span>
-								19.90
-							</div>
-							<div class="pro-gray-price-right">
-								<p class="end">已结束</p>
-							</div>
-						</div>
-						<div class="gray-end-img"></div>
-					</li>
-					<li class="pro-gray">
-						<div class="pro-gray-img">
-							<a href=""><img src="img/pro6-2.jpg" class="gray"></a>
-						</div>	
-						<div class="pro-gray-info">
-							<a href="">贝思客 新天鹅堡情人生日蛋糕新鲜蛋糕芝士蛋糕同城速递礼盒装(1.2磅)</a>
-						</div>
-						<div class="pro-gray-price">
-							<div class="pro-gray-price-left">
-								<span>¥</span>
-								88.00
-							</div>
-							<div class="pro-gray-price-right">
-								<p class="end">已结束</p>
-							</div>
-						</div>
-						<div class="gray-end-img"></div>
-					</li>
-					<li class="pro-gray">
-						<div class="pro-gray-img">
-							<a href=""><img src="img/pro6-3.jpg" class="gray"></a>
-						</div>	
-						<div class="pro-gray-info">
-							<a href="">【新牧哥】正宗内蒙古特产手撕风干牛肉干250g(原味）</a>
-						</div>
-						<div class="pro-gray-price">
-							<div class="pro-gray-price-left">
-								<span>¥</span>
-								29.90
-							</div>
-							<div class="pro-gray-price-right">
-								<p class="end">已结束</p>
-							</div>
-						</div>
-						<div class="gray-end-img"></div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-4.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">【果郡王】越南青芒果5斤装 芒果 青芒果 新鲜水果</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								24.60
-							</div>
-							<div class="pro-price-right">
-								<p class="count">63</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-5.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">雅丽洁护肤三件套芦荟胶40g2支+芦荟水230ml</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								55.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">212</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-6.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">雅丽洁一裸无忧气垫bb套盒</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								179.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">89</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-7.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">华素愈创优效修复专用+++漱口水260ml(海洋薄荷香型)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								35.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">166</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-8.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">华素愈创改善牙龈红肿出血+++牙膏120g(姜盐香型)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								24.50
-							</div>
-							<div class="pro-price-right">
-								<p class="count">196</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-9.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">伊利奶粉 金领冠珍护幼儿配方奶粉3段900g（1-3岁幼儿适用）白金版</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								239.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">131</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-10.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">【国美自营】伊利奶粉 金领冠婴儿配方奶粉3段1200g （12-36个月幼儿适用）</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								139.50
-							</div>
-							<div class="pro-price-right">
-								<p class="count">232</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="pro-gray">
-						<div class="pro-gray-img">
-							<a href=""><img src="img/pro6-11.jpg" class="gray"></a>
-						</div>	
-						<div class="pro-gray-info">
-							<a href="">旗帜中老年益生菌奶粉900克*两罐 1800克礼盒装（送礼盒）</a>
-						</div>
-						<div class="pro-gray-price">
-							<div class="pro-gray-price-left">
-								<span>¥</span>
-								66.00
-							</div>
-							<div class="pro-gray-price-right">
-								<p class="end">已结束</p>
-							</div>
-						</div>
-						<div class="gray-end-img"></div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-12.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">好奇（Huggies）银装成长裤大号（L）100片</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								105.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">165</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-13.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">同仁堂滋补养生酒鹿鞭酒125ml*12瓶</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								268.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">63</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-14.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">同仁堂滋补养生酒鹿鞭酒+三鞭酒500ml套装共2瓶</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								199.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">111</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-15.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">同仁堂滋补养生酒秘制御酒500ml*2瓶礼盒装</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								598.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">63</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro6-16.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<span>国美自营</span>
-							<a href="" class="self">同仁堂滋补养生酒同仁御酒500ml*2瓶</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								398.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">86</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<!--页面7-->
-				<ul id="product_list_7">
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-1.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">【官方直营】罗西尼（ROSSINI）手表情侣表时尚间金男士腕表防水石英男表514631女表514632(男钢带款514631T01C)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								398.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">32</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-2.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">天梭/Tissot手表 海星自动III系列机械男表(T065.430.16.031.00)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								2199.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">21</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-3.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">伊吉康 仰卧板 仰卧起坐腹肌板 家用收腹器 多功能健身器材 运动器械</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								129.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">39</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-4.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">凯速 臂力器 加厚加粗升级碳钢版20KG健身器材 臂力训练器(黑色升级版 20kg)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								9.90
-							</div>
-							<div class="pro-price-right">
-								<p class="count">43</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-5.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">睿视明 Rezemen 2017夏季新款太阳镜铝镁偏光眼镜男士墨镜开车驾驶偏光镜男司机墨镜</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								59.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">28</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-6.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">乐士Enpex 羽毛球拍单拍碳素拍子送球和手胶(002)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								49.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">57</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-7.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">2017夏季新款低跟凉鞋女学生露趾潮流水钻搭扣女鞋子牛筋底</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								49.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">11</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-8.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">天梭/Tissot 瑞士手表 杜鲁尔系列皮带机械男表 T099.407.11.058.00(黑色 钢带)</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								3999.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">10</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-9.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">Adidas/阿迪达斯 情侣款 三叶草系列 经典休闲板鞋B27139</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								329.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">2</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-10.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">Adidas/阿迪达斯 新款 男子 SEQUENCIALS系列运动休闲T恤S03011</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								129.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">6</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-11.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">NewBalanceNB574新百伦男鞋三原色女鞋透气运动跑步鞋ML574VG</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								308.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">52</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-12.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">New Balance/NB 男鞋女鞋复古休闲鞋ML009SBSRPNPBPT</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								358.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">28</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-13.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">阿迪达斯男鞋三叶草史密斯小白鞋女鞋樱花粉尾绿标/蓝标Adidas stan smith板鞋</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								329.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">22</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-14.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">美元素假发女短发波波头修脸减龄可爱女生BOBO头假头发 女士假发套hg96</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								49.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">9</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-15.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">Converse/匡威 常青经典款 多色可选高帮 休闲运动鞋 情侣帆布鞋</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								169.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">84</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-					<li class="">
-						<div class="pro-img">
-							<a href=""><img src="img/pro7-16.jpg"></a>
-						</div>	
-						<div class="pro-info">
-							<a href="">Converse/匡威 常青经典款 低帮多色可选 休闲运动帆布鞋101000</a>
-						</div>
-						<div class="pro-price">
-							<div class="pro-price-left">
-								<span>¥</span>
-								169.00
-							</div>
-							<div class="pro-price-right">
-								<p class="count">8</p>
-								<p>人已买</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
+			<div class="group-products-list"></div>
+			<script id="tmp4" type="text/x-jsrender">
+				{{for product_list}}
+					<ul id="product_list_{{:#index+1}}">
+						{{for product_item}}
+							{{if status && status.length}}
+								<li class="pro-gray">
+									<div class="pro-gray-img">
+										<a href=""><img src="{{:pro_img_path}}" class="gray"></a>
+									</div>	
+									{{if self && self.length}}
+										<div class="pro-gray-info">
+										    <span>{{:self}}</span>
+											<a href="" class="self">{{:pro_info}}</a>
+										</div>
+									{{else}}
+										<div class="pro-gray-info">
+											<a href="">{{:pro_info}}</a>
+										</div>
+									{{/if}}
+									<div class="pro-gray-price">
+										<div class="pro-gray-price-left">
+											<span>¥</span>
+											{{:price}}
+										</div>
+										<div class="pro-gray-price-right">
+											<p class="end">{{:status}}</p>
+										</div>
+									</div>
+									<div class="gray-end-img"></div>
+								</li>
+							{{else}}
+								<li class="">
+									<div class="pro-img">
+										<a href=""><img src="{{:pro_img_path}}"></a>
+									</div>	
+									{{if self && self.length}}
+										<div class="pro-info">
+										    <span>{{:self}}</span>
+											<a href="" class="self">{{:pro_info}}</a>
+										</div>
+									{{else}}
+										<div class="pro-info">
+											<a href="">{{:pro_info}}</a>
+										</div>
+									{{/if}}
+									<div class="pro-price">
+										<div class="pro-price-left">
+											<span>¥</span>
+											{{:price}}
+										</div>
+										<div class="pro-price-right">
+											<p class="count">{{:per_count}}</p>
+											<p>人已买</p>
+										</div>
+									</div>
+								</li>
+							{{/if}}
+						{{/for}}
+					</ul>
+				{{/for}}
+			</script>
 		</div>
 		<div class="group-invented">
 			<ul class="group-invented-list">
@@ -2882,6 +518,171 @@
 					<a href=""><img src="img/invented4.jpg"></a>
 				</li>
 			</ul>
+		</div>
+	</div>
+	<div class="zwf-gome-help">
+		<ul>
+			<li>
+				<a data-code="" href="" target="_blank" rel="nofollow">
+					<i class="icon-pz"></i>
+					品质
+				</a>
+				<span class="foot-titlt-dot"></span>
+				<a href="" class="sec-title">正品行货 购物无忧</a>
+			</li>
+			<li>
+				<a data-code="" href="" target="_blank" rel="nofollow">
+					<i class="icon-dj"></i>
+					低价
+				</a>
+				<span class="foot-titlt-dot"></span>
+				<a href="" class="sec-title">惠普实价 帮你省钱</a>
+			</li>
+			<li>
+				<a data-code="" href="" target="_blank" rel="nofollow">
+					<i class="icon-sd"></i>
+					速达
+				</a>
+				<span class="foot-titlt-dot"></span>
+				<a href="" class="sec-title">专业配送 按时按需</a>
+			</li>
+		</ul>
+		<div class="gome-help-box"></div>
+		<script id="help_box_tmp" type="text/x-jsrender">
+			{{for box_item}}
+			    <dl>
+			        <dt>{{:item_title}}</dt>
+			        <ul>
+			            {{for item_info}}
+			                <li>
+			                    <a data-code="" href="" target="_blank" rel="nofollow">{{:#data}}</a>
+			                </li>
+			            {{/for}}
+			        </ul>
+			    </dl>
+			{{/for}}
+		</script>
+	</div>
+	<div id="zwf-gome-foot">
+		<div id="gome-foot-box">
+			<span class="clearfix">
+				<i></i>
+				<p>
+					<strong>门店服务</strong>
+					<a rel="nofollow" data-code="" href="" target="_blank">国美门店全国共计2000余家</a>
+				</p>
+			</span>
+			<span class="clearfix ued">
+				<i></i>
+				<p>
+					<strong>用户体验</strong>
+					<a rel="nofollow" data-code="" href="" target="_blank">参与用户体验改进计划</a>
+					<a rel="nofollow" data-code="" href="" target="_blank">用户反馈</a>
+				</p> 
+			</span>
+			<div class="qrcode-section">
+				<em class="code-sm wx">
+					<i></i>
+					<p>公众号</p>
+					<div>
+						<img src="img/triangle.jpeg" />
+						<i class="icon-triangle"></i>
+					</div>
+				</em>
+				<em class="code-sm wap">
+					<i></i>
+					<p>手机站点</p>
+					<div>
+						<img src="img/triangle_2.jpeg" />
+						<i class="icon-triangle"></i>
+					</div>
+				</em>
+				<em class="code-bg app-plus">
+					<i>
+						<a data-code="" href="" target="_blank"></a>
+					</i>
+					<p>扫描下载国美Plus</p>
+				</em>
+				<em class="code-bg app">
+					<i>
+						<a data-code="" href="" target="_blank"></a>
+					</i>
+					<p>扫描下载客户端</p>
+				</em>
+			</div>
+			<ul>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">国美集团</a>
+				</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">多边金都</a>
+				</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">国之美</a>
+				</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">关于国美在线</a>
+				</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">加入我们</a>
+				</li>
+				<li>|</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">品牌大全</a>
+				</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">商品专题</a>
+				</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">批发大全</a>
+				</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">热词搜索</a>
+				</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">友情链接</a>
+				</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">风险监测</a>
+				</li>
+				<li>|</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">销售联盟</a>
+				</li>
+				<li>
+					<a data-code="" href="" target="_blank" rel="nofollow">商家入驻</a>
+				</li>
+
+			</ul>
+			<p>
+				国美在线电子商务有限公司&nbsp;&nbsp;办公地址：上海市嘉定区沪宜公路3163-3199号一楼A区&nbsp;&nbsp;客服电话：40008708708&nbsp;&nbsp;|&nbsp;&nbsp;本公司游戏产品适合18岁以上成年人使用
+			</p>
+			<p>
+				©2000-2017&nbsp;&nbsp;国美在线电子商务有限公司版权所有&nbsp;&nbsp;京公安网备11010502027062&nbsp;&nbsp;沪ICP备11009419号&nbsp;&nbsp;沪B2-20120004号
+			</p>
+			<div class="gome-foot-credit">
+				<a class="credit-baxx" href="" target="_blank" rel="nofollow">
+					<i></i>
+					<b>经营性网站备案信息</b>
+				</a>
+				<a class="credit-xypj" href="" target="_blank" rel="nofollow">
+					<i></i>
+					<b>可信网站信用评价</b>
+				</a>
+				<a class="credit-cxwz" href="" target="_blank" rel="nofollow">
+					<i></i>
+					<b>诚信网站</b>
+				</a>
+				<a class="credit-hdjc" href="" target="_blank" rel="nofollow">
+					<i></i>
+					<b>经朝阳网络警察</b>
+				</a>
+				<a class="credit-wgdj" href="" target="_blank" rel="nofollow">
+					<i></i>
+					<b>网购大家评</b>
+				</a>
+			</div>
+			<em class="trust-gome"></em>
 		</div>
 	</div>
 	<div class="gome-bar-right">
@@ -2929,6 +730,8 @@
 <script src="lib/jquery-3.2.1.js"></script>
 <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 <!-- <script src="lib/less.js"></script> -->
+<script src="js/jsrender.js"></script>
+<script src="js/data.js"></script>
 <script src="js/SlideImg.js"></script>
 <script src="js/SlideImg2.js"></script>
 <script src="js/index.js"></script>

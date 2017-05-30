@@ -122,7 +122,7 @@ $('.product_list_title li').click(function() {
 })
 
 function countdown() {
-	$('.right_btn').after('<div class="rightTime"><div class="TopTime"><h2>还剩 <span id="RemainD">0</span> 天</h2><div><span class="time_djs_iteam" id="RemainH">00</span><span class="time_maohao">:</span><span class="time_djs_iteam" id="RemainM">00</span><span class="time_maohao">:</span><span class="time_djs_iteam" id="RemainS">00</span><span class="time_maohao">:</span><span class="time_djs_iteam" id="RemainMS"></span></div></div><div class="DownImg"><div class="slide2"><ul class="slide_box2"><li style="opacity: 1"><a href="" style="background:url(img/flashsale1.jpg) center top no-repeat;background-position: initial"></a></li></ul></div></div></div>');
+	$('.right_btn').after('<div class="rightTime"><div class="TopTime"><h2>还剩 <span id="RemainD">0</span> 天</h2><div><span class="time_djs_iteam" id="RemainH">00</span><span class="time_maohao">:</span><span class="time_djs_iteam" id="RemainM">00</span><span class="time_maohao">:</span><span class="time_djs_iteam" id="RemainS">00</span><span class="time_maohao">:</span><span class="time_djs_iteam" id="RemainMS"></span></div></div><div class="DownImg"><div class="slide2"><ul class="slide_box2"><li style="opacity: 1"><a style="background:url(img/flashsale1.jpg) center top no-repeat;background-position: initial"></a></li></ul></div></div></div>');
 }
 
 var overDate = 1000 * 60 * 60 * 24 * 3; //截止时间:为当前计算机时间+3天
@@ -147,7 +147,7 @@ function GetRTime() {
 	}
 
     if (nD >= 0) {
-        document.getElementById('RemainD').innerHTML = checkTime(nD);
+        document.getElementById('RemainD').innerHTML = nD;
         document.getElementById('RemainH').innerHTML = checkTime(nH);
         document.getElementById('RemainM').innerHTML = checkTime(nM);
         document.getElementById('RemainS').innerHTML = checkTime(nS);
@@ -182,6 +182,7 @@ window.onload = function() {
 		});
 	})
 }
+
 
 
 

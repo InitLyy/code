@@ -1340,8 +1340,8 @@ dt {
 	height: 532px;
 	z-index: 980;
 	position: fixed;
-	left: -1.5px;
-	top:35px;
+	left:14%;
+	top:10%;
 	background:#fff;
 	visibility: hidden;
 }
@@ -1455,13 +1455,14 @@ dt {
 .ele_pic .eti{
 	float: left;
     overflow: hidden;
+    position: absolute;
     margin-left: -1px;
     margin-top: -1px;
     width: 10px;
     height: 10px;
     background: url(../img/ui_s.png) -152px 0 no-repeat;
     z-index: 2;
-    display: block;
+    display: none;
 }
 
 .gome-bar-right{

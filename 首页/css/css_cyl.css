@@ -406,14 +406,14 @@ a:hover {
 }
 
 /*按钮*/
-.slide_btn { 
+.slide .slide_btn { 
 	position: relative;
 	left: 50%;
 	top: -260px;
 	width: 350px;
 }
 
-.left_btn, .right_btn, .back1, .back2{ 
+.slide .left_btn, .right_btn, .back1, .back2{ 
 	width: 40px; 
 	height: 80px; 
 	cursor: pointer; 
@@ -427,7 +427,7 @@ a:hover {
 	user-select:none;
 }
 
-.left_btn {
+.slide .left_btn {
 	position: relative;
 	margin-left: 269px;
 	top: -80px;
@@ -456,15 +456,15 @@ a:hover {
 	opacity: .3;
 }
 
-.right_btn { 
+.slide .right_btn { 
 	position: relative;
 	top: -240px;
 	margin-left: 269px;
 	left: 41px;
-	background: url(../img/ui_s.png) -42px -112px no-repeat;
+	background: url(../img/ui_s.png) -42px -112px no-repeat!important;
 }
 
-.right_btn:hover {
+.slide .right_btn:hover {
 	opacity: .6;
 }
 
