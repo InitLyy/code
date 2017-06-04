@@ -62,6 +62,4 @@ function initUnderImg(){
 			},500);
 		})
 	});
-
-
 }

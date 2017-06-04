@@ -27,7 +27,7 @@
 
 			var Li="li";
 
-			var _cirBox='.cir_box';
+			var _cirBox='.Cir_Box';
 
 			var cirOn='cir_on';
 
@@ -47,10 +47,12 @@
 
 			function cir(){
 
-				_slide.append('<ul class="cir_box"></ul>');
+				_slide.append('<ul class="Cir_Box"></ul>');
 
-				var cir_box = _slide.children('.cir_box');
+				var cir_box=jQuery('.Cir_Box');
+
 				for(var i=0; i<cirlen;i++){
+
 					cir_box.append('<li style="" value="'+i+'"></li>');
 				}
 
@@ -60,7 +62,7 @@
 
 					left:'45%',
 
-					marginLeft:-cir_dss/2,
+					marginLeft:-cir_dss/3,
 
 					bottom:'5%' 
 
@@ -74,21 +76,21 @@
 
 			function Btn(){
 
-				_slide.append('<div class="slide_btn"></div>');
+				_slide.append('<div class="Slide_Btn"></div>');
 
-				var _btn=jQuery('.slide_btn');
+				var _btn=jQuery('.Slide_Btn');
 
 				_btn.append('<div class="back1"></div><div class="left_btn"></div><div class="back2"></div><div class="right_btn"></div>');
 
-				var leftBtn=_btn.children('.left_btn');
+				var leftBtn=jQuery('.left_btn');
 
-				var rightBtn=_btn.children('.right_btn');
+				var rightBtn=jQuery('.right_btn');
 
 			//点击左面按钮
 
 				leftBtn.bind(Click,function(){
 
-				var cir_box = _slide.children('.cir_box');
+				var cir_box=jQuery(_cirBox);
 
 			 	var onLen=jQuery(_cirOn).val();	
 
@@ -118,7 +120,7 @@
 
 				rightBtn.bind(Click,function(){
 
-				var cir_box = _slide.children('.cir_box');
+				var cir_box=jQuery(_cirBox);
 
 			 	var onLen=jQuery(_cirOn).val();	
 
@@ -237,8 +239,8 @@
 /*css样式*/
 
 // <style type="text/css">
-//   img{ display: block; border:none;}
 //   *{ margin:0; padding:0; }
+//   img{ display: block; border:none;}
 //   ul,li{ list-style: none;}
 //   .lubo{ width: 100%;clear: both; position: relative; height:368px;}
 //   .lubo_box{ position: relative; width: 100%; height:368px; }

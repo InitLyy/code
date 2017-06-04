@@ -89,6 +89,7 @@
 	width: 210px;
 	height: 470px;
 	border-right: solid 1px #94a3e4;
+	cursor: pointer;
 }
 .mc-img{
 	margin-left: -10px;
@@ -105,7 +106,6 @@
 	width: 210px;
 }
 .channel{
-	bottom: 160px;
 	width: 210px;
 	line-height: 25px;
 	background-color: #8a9be4;
@@ -113,28 +113,35 @@
 .channel_inner{
 	margin-bottom: 0;
 	width: 180px;
-	height: 25px;
-	margin-left: 10px;
+	margin-left: 15px;
 	margin-right: 15px;
 	overflow: hidden;
 	padding: 0;
 }
-.channel_inner a{
-	font-size: 13px;
+.channel_inner li {
+	height: 32px;
+	width: 180px;
+	line-height: 32px;
+}
+.channel_inner a {
+	font-size: 14px;
 	height: 23px;
 	color: white;
+}
+.channel_inner a:hover {
+	text-decoration: underline;
 }
 .keywords{
 	overflow: hidden;
 	position: absolute;
 	width: 210px;
-	height: 167px;
+	height: 160px;
 	background-color: #94a3e4;
 }
 .w55{
 	float: left;
 	overflow: hidden;
-	margin: 8px 0 0 10px;
+	margin: 8px 0 15px 15px;
 	font-size: 12px;
 	padding: 0;
 }
@@ -145,6 +152,9 @@
 .w55 li a{
 	height: 20px;
 	color: white;
+}
+.w55 li a:hover {
+	text-decoration: underline;
 }
 .main_warp{
 	display: flex;
@@ -180,6 +190,7 @@
 .main-inner .p-name{
 	width: 157px;
 	height: 36px;
+	margin: 0px;
 	margin-left: 20px;
 	overflow: hidden;
 	line-height: 18px;
@@ -188,7 +199,7 @@
 }
 .main-inner .p-price{
 	margin-left: 20px;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 	height: 20px;
 	line-height: 26px;
 	color: #e3101e;
@@ -204,7 +215,7 @@
 	color: #e3101e;
 	margin-left: 20px;
 	font-size: 14px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 .mc_t{
 	width: 990px;

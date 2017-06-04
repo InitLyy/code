@@ -34,7 +34,7 @@ function Close() {
 }
 
 function nav1() {
-	var link1 = document.querySelectorAll(".tab");
+	var link1 = document.querySelectorAll("._tab");
 	var list1 = document.querySelectorAll(".tab-con");
 	for (var i=0; i<link1.length; i++) {
     link1[i].index=i;
@@ -152,6 +152,10 @@ function sel3() {
 
 
 $(document).ready(function() {
+	$(function(){
+	    $(".slide").SlideImg({
+	    });
+	})
 	$('.temp').html($('.scroll_li').html());
 	x = $('.scroll_li');
 	y = $('.temp');
@@ -195,11 +199,6 @@ $(document).ready(function() {
 	selgame3();
 	sel3();
 	Close();
-})
-
-$(function(){
-    $(".slide").SlideImg({
-    });
 })
 
 

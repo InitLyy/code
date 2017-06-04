@@ -196,22 +196,9 @@ a:hover {
 	flex-wrap: wrap;
 	border: 1px solid #e6e6e6;
 }
-.bigimg_2 {
-	/*width: 219px;
-	height: 418px;*/
+.midimg {
+	border-top: 1px dashed #eee;
 }
-.midimg_2 {
-	display: block;
-	/*width: 199px;
-	height: 208px;*/
-	border-bottom: 1px dashed #eee;
-}
-.midimg_3 {
-	display: block;
-	/*width: 199px;
-	height: 209px;*/
-}
-
 .second-part2 {
 	width: 340px;
 	height: 481px;
@@ -249,24 +236,21 @@ a:hover {
 	height: 208px;*/
 	border-bottom: 1px dashed #eee;
 }
-.midimg_5 {
-	display: block;
-	/*width: 219px;
-	height: 209px;*/
-}
 .second-part2-b-1 a{
 	display: block;
 	height: 60px;
 	width: 118px; 
 	text-align: center;
 	border-left: 1px solid #e6e6e6;
-	border-bottom: 1px dashed #eee;
+	
 }
-.midimg_6 {
+.second-part2-b-1 a img{
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+.brandimg {
 	display: inline-block;
-	/*width: 100px;
-	height: 30px;*/
-	margin-top: 15px;
+	border-top: 1px dashed #eee;
 }
 
 
@@ -389,7 +373,7 @@ a.sec-title {
 	display: block;
 	width: 45px;
 	height: 45px;
-	background: url(../img_zwf/ui.png) 0 -135px;
+	background: url(../img/img_zwf/ui.png) 0 -135px;
 	float: left;
 }
 #gome-foot-box span p {
@@ -436,7 +420,7 @@ a.sec-title {
 	position: relative;
 }
 #gome-foot-box em i {
-	background: url(../img_zwf/ui.png);
+	background: url(../img/img_zwf/ui.png);
 	display: inline-block;
 }
 #gome-foot-box em.code-sm i{
@@ -478,7 +462,7 @@ a.sec-title {
 	height: 8px;
 	width: 13px;
 	left: 68px;
-	background: url(../img_zwf/ui.png) -67px -127px!important;
+	background: url(../img/img_zwf/ui.png) -67px -127px!important;
 	top: 100%;
 }
 #gome-foot-box em.code-bg {
@@ -539,7 +523,7 @@ a.sec-title {
 	display: block;
 	width: 35px;
 	height: 35px;
-	background: url(../img_zwf/ui.png) 0 -180px;
+	background: url(../img/img_zwf/ui.png) 0 -180px;
 	float: left;
 }
 .gome-foot-credit b {
@@ -583,15 +567,9 @@ a.sec-title {
 	height: 30px;
 	bottom: 27px;
 	right: 0;
-	background: url(../img_zwf/ui.png) 0 -1217px;
+	background: url(../img/img_zwf/ui.png) 0 -1217px;
 }
 
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2017-05-09 18:00:53
- * @version $Id$
- */
 
 /* @font-face {
   	font-family: 'iconfont';

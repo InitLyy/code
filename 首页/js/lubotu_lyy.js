@@ -85,7 +85,7 @@
 
 				// });
 
-				_btn.append('<div class="left_btn"><</div><div class="right_btn">></div>');
+				_btn.append('<div class="backleft"></div><div class="left_btn"></div><div class="backright"></div><div class="right_btn"></div>');
 				// _lubo.append('<div class="left_btn"><</div><div class="right_btn">></div>');
 				var leftBtn=_btn.children('.left_btn');
 

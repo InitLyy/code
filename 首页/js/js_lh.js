@@ -26,6 +26,7 @@ $('.user-icon-next').click(function(){
 	if(cur-240>=-480)
 		cur=cur-240;
 	cur=Math.round(cur/240)*240;
+	console.log(cur);
 	$('.rollintro ul').css('left',cur+'px');
 })
 $('.user-icon-prev').click(function(){
@@ -33,6 +34,7 @@ $('.user-icon-prev').click(function(){
 	if(cur+240<=0)
 		cur=cur+240;
 	cur=Math.round(cur/240)*240;
+	console.log(cur);
 	$('.rollintro ul').css('left',cur+'px');
 })
 
@@ -49,7 +51,6 @@ function togseabar(e) {
         if ($('.aside-backtop').css('display')=='none') {
         	$('.aside-blank').css('display','none');
             $('.aside-backtop').css('display','block');
-
         }  
     }  
     else {  

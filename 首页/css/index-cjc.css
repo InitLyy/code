@@ -449,21 +449,22 @@ p:hover {
     position: absolute;
     left: 20px;
     top: 20px;
+    background: url(../img/ui_s.png) -52px 0;
 }
 .ui-hot-left-main-item1-img{
 	width: 210px;
 	height: 210px;
 	margin: 35px;
+    z-index: -1;
 }
 .ui-hot-left-main-item1-title{
-	margin-left: 20px;
+	margin: 0 0 0 20px;
     line-height: 24px;
     font-size: 16px;
     width: 240px;
     height: 24px;
     overflow: hidden;
     color: #404040;
-    margin: 0;
     padding: 0;
 }
 .ui-hot-left-main-item1-price{
@@ -510,6 +511,19 @@ p:hover {
     position: relative;
     overflow: hidden;
     text-decoration: none;
+}
+.ui-hot-left-list ul a b {
+    display: block;
+    width: 70px;
+    height: 77px;
+    position: absolute;
+    right: -5px;
+    top: 39px;
+    font-size: 125px;
+    color: #f9f7f5;
+    font-style: italic;
+    line-height: 187px;
+    font-family: Arial, 'Microsoft Yahei';
 }
 #hot2{
 	display: block;
