@@ -112,6 +112,119 @@ ul{
 	height: 55px;
 	background: url(../img/ui.png) 0px -337px no-repeat;
 }
+.user-name-login{
+	float: left;
+    font: 400 12px/20px Arial,Simsun;
+    padding: 0 0 0 15px;
+    width: 220px;
+    box-sizing: content-box;
+    display: none;
+}
+.user-name-login p{
+	padding: 0;
+	margin:0;
+}
+.user-name-login>p strong{
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 14px;
+    overflow: hidden;
+}
+.user-name-login>p strong a{
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #888;
+}
+.user-name-login>p strong a:hover{
+	color: #c00;
+    text-decoration: none;
+}
+.user-name-login>p strong em{
+    margin: 0 0 0 5px;
+    height: 15px;
+    width: 27px;
+    color: #e60000;
+    text-align: center;
+    font: 700 12px/16px arial;
+    display: inline-block;
+    box-sizing: content-box;
+    border: 1px  solid #e60000;
+}
+.user-name-login>a .first{
+    background: #ffb799;
+    height: 15px;
+    margin: 4px 0;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 182px;
+}
+.user-name-login>a .first span{
+	float: left;
+    display: block;
+    height: 15px;
+    background: #eb5509;
+}
+
+.user-name-login>a .first sup{
+	position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font: 12px/16px Arial,Simsun;
+    vertical-align: text-top;
+    padding: 0 3px;
+}
+
+.user-name-login>a .second{
+	margin: 0;
+    padding: 0;
+    float: right;
+    width: 36px;
+    overflow: hidden;
+    background: #ffb799;
+    height: 15px;
+    margin: 4px 0;
+    overflow: hidden;
+    position: relative;
+}
+.user-name-login>a .second span{
+    float: left;
+    display: block;
+    height: 15px;
+    background: #eb5509;
+    color: #888;
+    line-height: 16px;
+}
+.user-name-login>a .second sup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font: 12px/16px Arial,Simsun;
+    vertical-align: text-top;
+    padding: 0 3px;
+}
+.user-name-login>a .third{
+	margin: 0;
+    padding: 0;
+   	color: #888;
+    width: 100%;
+    line-height: 16px;
+    overflow: hidden;
+}
+.user-name-login>a .third ins{
+    color: #c00;
+    margin: 0;
+    text-decoration: none;
+}
+.user-name-login a:hover{
+	text-decoration: none!important;
+}
+ins{
+	text-decoration: none;
+}
 .user-name-word{
 	height: 36px;
 	float: left;
