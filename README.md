@@ -18,3 +18,5 @@
 	3. http://prom.gome.com.cn/html/prodhtml/topics/201705/17/2291748633.html?intcmp=sy-1000060761-3
 	4. http://fashion.gome.com.cn/?intcmp=sy-1000000378-3
 	5. http://tuan.gome.com.cn/?intcmp=sy-1000000378-2
+	https://login.gome.com.cn/login?intcmp=sy-public01002
+	https://reg.gome.com.cn/register/index/person
