@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>lvxing</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link rel="stylesheet" type="text/css" href="lib/font_lh/iconfont.css">
+		<link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/lvxing.css">
+		<link rel="stylesheet" href="css/lunbo_lyy.css">
+		<link rel="stylesheet" type="text/css" href="css/cityselect.css">
+		<!-- <link rel="stylesheet/less" href="myfile.less"> -->
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	</head>
+	<body>
+		<div class="container-fluid gome-top">
+			<div class="container-fluid gome-top-bar">
+				<ul>
+					<li class="entry">
+						<a href="">
+							<div class="logo-small"></div>
+							<span>国美Plus</span>
+						</a>
+					</li>
+					<li class="space"></li>
+					<li class="user">
+						<a href="" class="user-box">
+							<span>国美会员
+								<i class="fa fa-angle-down"></i>
+								<i class="fa fa-angle-up"></i>
+							</span>
+						</a>
+						<div class="user-dropdown">
+							<div class="user-name">
+								<div class="user-name-pic"></div>
+								<div class="user-name-word">
+									<p>欢迎来到国美在线，
+										<a href="">请登录！</a>
+									</p>
+								</div>
+							</div>
+							<div class="user-icon">
+								<span>
+									<p>我的特权</p>
+									<a href="">会员俱乐部</a>
+								</span>
+								<div class="user-icon-prev">
+								</div>
+								<div class="user-icon-next">
+								</div>
+								<div class="rollintro">
+									<ul>
+										<li>
+											<a href="">
+												<i class="iconfont-lh">&#xe614;</i>
+												美豆抽奖
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<i class="iconfont-lh">&#xe628;</i>
+												退换货保障
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<i class="iconfont-lh">&#xe613;</i>
+												价格保护
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<i class="iconfont-lh">&#xe641;</i>
+												消费得美豆
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<i class="iconfont-lh">&#xe625;</i>
+												专属阶梯价
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<i class="iconfont-lh">&#xe621;</i>
+												生日礼包
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<i class="iconfont-lh">&#xe627;</i>
+												自营免运费
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<i class="iconfont-lh">&#xe626;</i>
+												专属客服
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<i class="iconfont-lh">&#xe679;</i>
+												更多精彩
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="login">
+						<a href="">登录</a>
+						<a href="">注册</a>
+					</li>
+				</ul>
+				<ul class="top-right">
+					<li class="myorder">
+						<a href="">我的订单</a>
+					</li>
+					<li class="mygome">
+						<a href="" class="mygome-box">
+							<span>我的国美
+								<i class="fa fa-angle-down"></i>
+								<i class="fa fa-angle-up"></i>
+							</span>
+						</a>
+						<div class="mygome-dropdown">
+							<strong>
+							我的国美，
+							<a href="">请登录！</a>
+							</strong>
+							<ul class="mygome-order">
+								<li>
+									<a href="">待处理订单</a>
+								</li>
+								<li>
+									<a href="">我的收藏</a>
+								</li>
+								<li>
+									<a href="">我的金融</a>
+								</li>
+								<li>
+									<a href="">
+										个人资料
+									</a>
+								</li>
+							</ul>
+							<ul class="mygome-coupon">
+								<li>
+									<a href="">红&nbsp;券</a>
+									<div id="cou-red">-</div>
+								</li>
+								<li>
+									<a href="">蓝&nbsp;券</a>
+									<div id="cou-blue">-</div>
+								</li>
+								<li>
+									<a href="">店铺券</a>
+									<div id="cou-shop">-</div>
+								</li>
+								<li>
+									<a href="">购物券</a>
+									<div id="cou-pay">-</div>
+								</li>
+							</ul>
+							<p>足迹</p>
+							<ul id="mygome-track">
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</li>
+					<li class="space"></li>
+					<li class="comp">
+						<a href="">企业采购</a>
+					</li>
+					<li class="serve">
+						<a href="" class="serve-box">
+							<div class="icon-serve">
+								<i class="iconfont-lh">&#xe62a;</i>
+							</div>
+							<span>服务中心
+								<i class="fa fa-angle-down"></i>
+								<i class="fa fa-angle-up"></i>
+							</span>
+						</a>
+						<div class="serve-dropdown">
+							<p>
+								<a href="">售后服务</a>
+							</p>
+							<ul>
+								<li>
+									<a href="">物流与配送</a>
+								</li>
+								<li>
+									<a href="">上门安装</a>
+								</li>
+								<li>
+									<a href="">退换货服务</a>
+								</li>
+								<li>
+									<a href="">手机维修</a>
+								</li>
+								<li>
+									<a href="">延保服务</a>
+								</li>
+								<li>
+									<a href="">家电回收</a>
+								</li>
+							</ul>
+							<p>
+								<a href="">帮助服务</a>
+							</p>
+							<ul>
+								<li>
+									<a href="">焦点问题</a>
+								</li>
+								<li>
+									<a href="">账户安全</a>
+								</li>
+								<li>
+									<a href="">签收与验货</a>
+								</li>
+								<li>
+									<a href="">分期付款</a>
+								</li>
+								<li>
+									<a href="">退款说明</a>
+								</li>
+								<li>
+									<a href="">优惠券说明</a>
+								</li>
+							</ul>
+							<a href="" class="live-server">
+								<i class="iconfont-lh">&#xe62a;</i>
+								在线客服
+							</a>
+						</div>
+					</li>
+					<li class="sitemap">
+						<a href="" class="sitemap-box">
+							<span>网站导航
+								<i class="fa fa-angle-down"></i>
+								<i class="fa fa-angle-up"></i>
+							</span>
+						</a>
+						<div class="sitemap-dropdown">
+							<dl class="none">
+								<dt>主题促销</dt>
+								<dd>
+								<ul>
+									<li>
+										<a href="">真划算</a>
+									</li>
+									<li>
+										<a href="">抢购</a>
+									</li>
+									<li>
+										<a href="">海外购</a>
+									</li>
+									<li>
+										<a href="">国美定制</a>
+										<i class="new"></i>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">家电城</a>
+									</li>
+									<li>
+										<a href="">服饰城</a>
+									</li>
+									<li>
+										<a href="">国美超市</a>
+									</li>
+									<li>
+										<a href="">家装管</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">智能家居</a>
+									</li>
+									<li>
+										<a href="">今日特卖</a>
+									</li>
+									<li>
+										<a href="">新品抢先</a>
+									</li>
+									<li>
+										<a href="">品牌街</a>
+									</li>
+								</ul>
+								</dd>
+							</dl>
+							<dl>
+								<dt>特色分类</dt>
+								<dd>
+								<ul>
+									<li>
+										<a href="">电视影音</a>
+									</li>
+									<li>
+										<a href="">冰洗</a>
+									</li>
+									<li>
+										<a href="">洗衣机</a>
+									</li>
+									<li>
+										<a href="">空调</a>
+									</li>
+									<li>
+										<a href="">厨卫生活</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">手机</a>
+									</li>
+									<li>
+										<a href="">数码</a>
+									</li>
+									<li>
+										<a href="">电脑办公</a>
+									</li>
+									<li>
+										<a href="">精品配件</a>
+									</li>
+									<li>
+										<a href="">汽车</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">住宅家具</a>
+									</li>
+									<li>
+										<a href="">家装建材</a>
+									</li>
+									<li>
+										<a href="">家居日用</a>
+									</li>
+									<li>
+										<a href="">床品家纺</a>
+									</li>
+									<li>
+										<a href="">黄金收藏</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">服饰鞋帽</a>
+									</li>
+									<li>
+										<a href="">运动户外</a>
+									</li>
+									<li>
+										<a href="">箱包奢品</a>
+									</li>
+									<li>
+										<a href="">钟表首饰</a>
+									</li>
+									<li>
+										<a href="">文化艺术</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">食品酒水</a>
+									</li>
+									<li>
+										<a href="">医疗保健</a>
+									</li>
+									<li>
+										<a href="">母婴玩具</a>
+									</li>
+									<li>
+										<a href="">美妆个护</a>
+									</li>
+								</ul>
+								</dd>
+							</dl>
+							<dl>
+								<dt>便捷服务</dt>
+								<dd>
+								<ul>
+									<li>
+										<a href="">话费充值</a>
+									</li>
+									<li>
+										<a href="">游戏点卡</a>
+									</li>
+									<li>
+										<a href="">机票</a>
+									</li>
+									<li>
+										<a href="">电影票</a>
+									</li>
+									<li>
+										<a href="">美盈宝</a>
+									</li>
+									<li>
+										<a href="">定期理财</a>
+									</li>
+									<li>
+										<a href="">转让理财</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">流量充值</a>
+									</li>
+									<li>
+										<a href="">酒店</a>
+									</li>
+									<li>
+										<a href="">火车票</a>
+									</li>
+									<li>
+										<a href="">演出票</a>
+									</li>
+									<li>
+										<a href="">投金宝</a>
+									</li>
+									<li>
+										<a href="">票据理财</a>
+									</li>
+									<li>
+										<a href="">上门服务</a>
+									</li>
+								</ul>
+								</dd>
+							</dl>
+							<dl>
+								<dt>更多热点</dt>
+								<dd>
+								<ul>
+									<li>
+										<a href="">商家入驻</a>
+									</li>
+									<li>
+										<a href="">企业采购</a>
+										<i class="hot_icon"></i>
+									</li>
+									<li>
+										<a href="">国美社区</a>
+									</li>
+									<li>
+										<a href="">购明白</a>
+									</li>
+								</ul>
+								</dd>
+							</dl>
+							<dl>
+								<dt>国美旗下</dt>
+								<dd>
+								<ul>
+									<li>
+										<a href="">多边金都</a>
+									</li>
+									<li>
+										<a href="">国之美</a>
+									</li>
+									<li>
+										<a href="">国美家装</a>
+									</li>
+									<li>
+										<a href="">国美管家</a>
+									</li>
+								</ul>
+								</dd>
+							</dl>
+						</div>
+					</li>
+					<li class="space"></li>
+					<li class="phone">
+						<a href="" class="phone-box">
+							<div class="icon_phone">
+								<i class="iconfont-lh">&#xe629;</i>
+							</div>
+							<span>手机国美
+								<i class="fa fa-angle-down"></i>
+								<i class="fa fa-angle-up"></i>
+							</span>
+						</a>
+						<div class="phone-dropdown">
+							<a href="" class="pic-left"></a>
+							<div class="longspace"></div>
+							<a href="" class="pic-right"></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="bg">
+			<div class="gm-top box1200">	
+				<h1 class="gm-travel-logo"></h1>
+				<ul class="travel-menu">
+					<li class="menu-cur">
+						<a href="">首页</a>
+					</li>
+					<li><a href="">机票</a></li>
+					<li><a href="">火车票</a></li>
+					<li><a href="">酒店</a></li>
+					<li><a href="">度假</a></li>
+					<li><a href="">全球游学</a></li>
+				</ul>
+				<div class="user-info">
+					<i></i>
+					<a href="">我的旅行</a>
+				</div>	
+			</div>
+		</div>
+		<div class="gm-header">
+			<div class="lubo">
+				<div class="lubo_box">
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+				</div>
+			</div>
+			<div class="gosearch">
+				<div class="search-bg"></div>
+				<div class="search-menu">
+					<li>
+						<div class="li_bg"></div>
+						<span>
+							<i class="search_icon icon03"></i>
+							机票
+						</span>
+					</li>
+					<li>
+						<div class="li_bg"></div>
+						<span>
+							<i class="search_icon icon02"></i>
+							火车票
+						</span>
+					</li>
+					<li>
+						<div class="li_bg"></div>
+						<span>
+							<i class="search_icon icon01"></i>
+							酒店
+						</span>
+					</li>
+					<li>
+						<div class="li_bg"></div>
+						<span>
+							<i class="search_icon icon04"></i>
+							度假
+						</span>
+					</li>
+				</div>
+				<div class="search-detail">
+					<div class="detail-bg"></div>
+					<div class="detail-tab plane_tab">
+						<form action name="formName" class="search_form" >
+							<div class="change" id="btn_change">
+								<span>换</span>
+							</div>
+							<dl class="clearfix">
+								<dt class="w70 fl">航班类型</dt>	
+								<dd class="w200 fl jp-dd">
+									<label for="dc-text">
+										<input type="radio" id="dc-text" class="nRadio" name="radioAirplane"
+										checked>
+										单程
+									</label>
+									<label for="fc-text">
+										<input type="radio" id="fc-text" class="nRadio" name="radioAirplane">
+										往返
+									</label>
+								</dd>
+							</dl>
+							<dl class="clearfix">
+								<dt class="w70 fl">出发城市</dt>
+								<dd class="w200 fl ">
+									<label for="">
+										<input id="fromcity" placeholder="中文/拼音" value="中文/拼音" type="text" class="input_text city_text cityinput" maxlength="20" style="color: rgb(51, 51, 51);">
+										<i class="com_icondate"></i>
+									</label>
+									
+								</dd>
+							</dl>
+							<dl class="clearfix">
+								<dt class="w70 fl">到达城市</dt>
+								<dd class="w200 fl">
+									<label for="">
+										<input id="tocity" placeholder="中文/拼音" value="中文/拼音" type="text" class="input_text city_text cityinput" maxlength="20" style="color: rgb(51, 51, 51);">
+										<i class="com_icondate"></i>
+									</label>
+									
+								</dd>
+							</dl>
+							<div id="dcbox" class="serch-date-box on">
+								<dl class="date-picker clearfix" style="position: relative; z-index: 3">
+									<dt class="w70 fl">出发日期</dt>
+									<dd class="w200 fl">
+										<label for="">
+											<input id="leaveTimeText" placeholder="" value="" type="date" class="input_text time_text" maxlength="20" style="color: rgb(51, 51, 51);">
+											<i class="com_icondate"></i>
+										</label>
+
+									</dd>
+								</dl>
+								<dl class="date-picker clearfix disabled" style="position: relative; z-index: 3">
+									<dt class="w70 fl">返程日期</dt>
+									<dd class="w200 fl">
+										<label for="">
+											<input id="arriveTimeText" placeholder="" value="" type="text" class="input_text time_text" maxlength="20" style="color: rgb(204, 204, 204);">
+											<i class="com_icondate"></i>
+										</label>
+
+									</dd>
+								</dl>
+							</div>
+							<div id="wfbox" class="search-date-box">	
+								<dl class="date-picker clearfix" style="position: relative; z-index: 3">
+									<dt class="w70 fl">出发日期</dt>
+									<dd class="w200 fl">
+										<label for="">
+											<input type="date" id="g_d_cf" class="input_text time_text" placeholder=""  style="color: rgb(51, 51, 51); border: 1px solid rgb(204, 204, 204);">
+											<i class="com_icondate"></i>
+										</label>
+
+									</dd>
+								</dl>
+								<dl class="date-picker clearfix" style="position: relative; z-index: 3">
+									<dt class="w70 fl">返程日期</dt>
+									<dd class="w200 fl">
+										<label for="">
+											<input type="date" id="g_d_cf" class="input_text time_text" placeholder=""  style="color: rgb(51, 51, 51); border: 1px solid rgb(204, 204, 204);">
+											<i class="com_icondate"></i>
+										</label>
+
+									</dd>
+								</dl>	
+
+							</div>
+							<div class="search_btn mt15" id="artsearch">搜索机票</div>
+						</form>
+					</div>
+					<div class="detail-tab train_tab" >
+							<div class="change" id="btn_change">
+								<span>换</span>
+							</div>
+							<dl class="clearfix"></dl>
+							<dl class="clearfix">
+								<dt class="w70 fl">出发城市</dt>
+								<dd class="w200 fl ">
+									<label for="">
+										<input id="romcity" placeholder="中文/拼音" value="中文/拼音" type="text" class="input_text city_text cityinput" maxlength="20" style="color: rgb(51, 51, 51);">
+										<i class="com_icondate"></i>
+									</label>
+									
+								</dd>
+							</dl>
+							<dl class="clearfix">
+								<dt class="w70 fl">到达城市</dt>
+								<dd class="w200 fl">
+									<label for="">
+										<input id="ocity" placeholder="中文/拼音" value="中文/拼音" type="text" class="input_text city_text cityinput" maxlength="20" style="color: rgb(51, 51, 51);">
+										<i class="com_icondate"></i>
+									</label>
+									
+								</dd>
+							</dl>
+							<div id="dcbox" class="serch-date-box on">
+								<dl class="date-picker clearfix" style="position: relative; z-index: 3">
+									<dt class="w70 fl">出发日期</dt>
+									<dd class="w200 fl">
+										<label for>
+											<input type="date" id="g_d_cf" class="input_text time_text" placeholder="" value =""  style="color: rgb(51, 51, 51); border: 1px solid rgb(204, 204, 204);">
+											<i class="com_icondate"></i>
+										</label>
+
+									</dd>
+								</dl>
+							</div>
+							<div class="search_btn mt15" id="artsearch">搜索火车票</div>
+					</div>
+					<div class="detail-tab ">
+						<div class="h20"></div>
+						<dl class="clearfix">
+							<dt class="w70 fl">目 的 地</dt>
+							<dd class="w200 fl ">
+									<label for="">
+										<input id="leaveText" placeholder="中文/拼音" value="北京" type="text" class="input_text city_text" maxlength="20" style="color: rgb(51, 51, 51);">
+										<i class="com_icondate"></i>
+									</label>
+									
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt class="w70 fl ">入住日期</dt>
+							<dd class="w200 fl date-picker">
+									<label for="">
+										<input id="leaveText"  value="" type="date" class="input_text city_text" maxlength="20" style="color: rgb(51, 51, 51);">
+										<i class="com_icondate"></i>
+									</label>
+									
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt class="w70 fl">离店日期</dt>
+							<dd class="w200 fl date-picker">
+									<label for="">
+										<input id="leaveText"  value="" type="date" class="input_text city_text" maxlength="20" style="color: rgb(51, 51, 51);">
+										<i class="com_icondate"></i>
+									</label>
+									
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt class="w70 fl">关 键 词</dt>
+							<dd class="w200 fl date-picker">
+									<label for="">
+										<input id="leaveText"  value="输入位置/就点名/品牌" type="text" class="input_text city_text" maxlength="20" style="color: rgb(204, 204, 204);">
+										<i class="com_icondate"></i>
+									</label>
+									
+							</dd>
+						</dl>
+						<div class="search_btn mt30" id="artsearch">搜索酒店</div>
+					</div>
+					<div class="detail-tab">
+						<form action="">
+							<div style="height: 32px;margin-top: 54px;position: relative;">
+								<input type="text" placeholder="请输入城市、景点" class="input_text dujia_keyword" maxlength="20" code="" style="color: rgb(204, 204, 204); border: 1px solid rgb(204, 204, 204);width: 268px;">
+							</div>
+							<div class="search_btn mt20" style="width: 90px;margin-left: 202px">搜索</div>
+							<div>
+								<h3 style="font-size: 14px;color: #5a5a5a;margin-top: 20px;line-height: 18px">热门目的地</h3>
+								<ul class="hotAddress">
+									<li><a href="">北京</a></li>
+									<li><a href="">北京</a></li>
+									<li><a href="">北京</a></li>
+									<li><a href="">北京</a></li>
+									<li><a href="">北京</a></li>
+									<li><a href="">北京</a></li>
+									<li><a href="">北京</a></li>
+									<li><a href="">北京</a></li>
+									<li><a href="">北京</a></li>
+									<li><a href="">北京</a></li>
+
+								</ul>
+							</div>
+						</form>
+					</div>
+
+				</div>	
+			</div>
+		</div>
+
+
+
+
+
+		<div class="box1200">
+			<h2 class="nav-title">度假自由行</h2>
+			<div class="show-list">
+				<ul class="dujia-show-list">
+					<li>
+						<a href="">
+							<dl>
+								<dt>
+									<img src="img/2Xr4YI.jpg" alt="">
+								</dt>
+								<dd>
+									<p class="product_tit">【北京2日游】自选北京稻香湖海景酒店，稻香湖酒店大美儿童乐园 </p>
+									<p class="clearfix">
+										<span class="price">
+											￥
+											<strong>498</strong>
+											起/份
+										</span>
+										<span class="city">北京</span>
+									</p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<dl>
+								<dt>
+									<img src="img/2Xr4YI.jpg" alt="">
+								</dt>
+								<dd>
+									<p class="product_tit">【北京2日游】自选北京稻香湖海景酒店，稻香湖酒店大美儿童乐园 </p>
+									<p class="clearfix">
+										<span class="price">
+											￥
+											<strong>498</strong>
+											起/份
+										</span>
+										<span class="city">北京</span>
+									</p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<dl>
+								<dt>
+									<img src="img/2Xr4YI.jpg" alt="">
+								</dt>
+								<dd>
+									<p class="product_tit">【北京2日游】自选北京稻香湖海景酒店，稻香湖酒店大美儿童乐园 </p>
+									<p class="clearfix">
+										<span class="price">
+											￥
+											<strong>498</strong>
+											起/份
+										</span>
+										<span class="city">北京</span>
+									</p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<dl>
+								<dt>
+									<img src="img/2Xr4YI.jpg" alt="">
+								</dt>
+								<dd>
+									<p class="product_tit">【北京2日游】自选北京稻香湖海景酒店，稻香湖酒店大美儿童乐园 </p>
+									<p class="clearfix">
+										<span class="price">
+											￥
+											<strong>498</strong>
+											起/份
+										</span>
+										<span class="city">北京</span>
+									</p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<dl>
+								<dt>
+									<img src="img/2Xr4YI.jpg" alt="">
+								</dt>
+								<dd>
+									<p class="product_tit">【北京2日游】自选北京稻香湖海景酒店，稻香湖酒店大美儿童乐园 </p>
+									<p class="clearfix">
+										<span class="price">
+											￥
+											<strong>498</strong>
+											起/份
+										</span>
+										<span class="city">北京</span>
+									</p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<dl>
+								<dt>
+									<img src="img/2Xr4YI.jpg" alt="">
+								</dt>
+								<dd>
+									<p class="product_tit">【北京2日游】自选北京稻香湖海景酒店，稻香湖酒店大美儿童乐园 </p>
+									<p class="clearfix">
+										<span class="price">
+											￥
+											<strong>498</strong>
+											起/份
+										</span>
+										<span class="city">北京</span>
+									</p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<dl>
+								<dt>
+									<img src="img/2Xr4YI.jpg" alt="">
+								</dt>
+								<dd>
+									<p class="product_tit">【北京2日游】自选北京稻香湖海景酒店，稻香湖酒店大美儿童乐园 </p>
+									<p class="clearfix">
+										<span class="price">
+											￥
+											<strong>498</strong>
+											起/份
+										</span>
+										<span class="city">北京</span>
+									</p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<dl>
+								<dt>
+									<img src="img/2Xr4YI.jpg" alt="">
+								</dt>
+								<dd>
+									<p class="product_tit">【北京2日游】自选北京稻香湖海景酒店，稻香湖酒店大美儿童乐园 </p>
+									<p class="clearfix">
+										<span class="price">
+											￥
+											<strong>498</strong>
+											起/份
+										</span>
+										<span class="city">北京</span>
+									</p>
+								</dd>
+							</dl>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<h2 class="nav-title">特惠酒店预定</h2>
+			<div class="show-list">
+				<ul class="fl ovh w880">
+					<li class="show-li">
+						<a href="">
+							<div class="show-pro">
+								<img src="img/T1lyKTBybT1RCvBVdK" alt="">
+								<div class="pro-detail">
+									<span class="detail-icon"></span>
+									<em>
+										<span class="cityname">北京</span>
+										建国门
+									</em>
+								</div>
+							</div>
+							<p class="show-name">北京明宇丽雅饭店</p>
+							<p class="show-price">
+								<span>￥</span>
+								598
+								<em>起</em>
+							</p>
+						</a>
+					</li>
+					<li class="show-li">
+						<a href="">
+							<div class="show-pro">
+								<img src="img/T1lyKTBybT1RCvBVdK" alt="">
+								<div class="pro-detail">
+									<span class="detail-icon"></span>
+									<em>
+										<span class="cityname">北京</span>
+										建国门
+									</em>
+								</div>
+							</div>
+							<p class="show-name">北京明宇丽雅饭店</p>
+							<p class="show-price">
+								<span>￥</span>
+								598
+								<em>起</em>
+							</p>
+						</a>
+					</li>
+					<li class="show-li">
+						<a href="">
+							<div class="show-pro">
+								<img src="img/T1lyKTBybT1RCvBVdK" alt="">
+								<div class="pro-detail">
+									<span class="detail-icon"></span>
+									<em>
+										<span class="cityname">北京</span>
+										建国门
+									</em>
+								</div>
+							</div>
+							<p class="show-name">北京明宇丽雅饭店</p>
+							<p class="show-price">
+								<span>￥</span>
+								598
+								<em>起</em>
+							</p>
+						</a>
+					</li>
+					<li class="show-li">
+						<a href="">
+							<div class="show-pro">
+								<img src="img/T1lyKTBybT1RCvBVdK" alt="">
+								<div class="pro-detail">
+									<span class="detail-icon"></span>
+									<em>
+										<span class="cityname">北京</span>
+										建国门
+									</em>
+								</div>
+							</div>
+							<p class="show-name">北京明宇丽雅饭店</p>
+							<p class="show-price">
+								<span>￥</span>
+								598
+								<em>起</em>
+							</p>
+						</a>
+					</li>
+					<li class="show-li">
+						<a href="">
+							<div class="show-pro">
+								<img src="img/T1lyKTBybT1RCvBVdK" alt="">
+								<div class="pro-detail">
+									<span class="detail-icon"></span>
+									<em>
+										<span class="cityname">北京</span>
+										建国门
+									</em>
+								</div>
+							</div>
+							<p class="show-name">北京明宇丽雅饭店</p>
+							<p class="show-price">
+								<span>￥</span>
+								598
+								<em>起</em>
+							</p>
+						</a>
+					</li>
+					<li class="show-li">
+						<a href="">
+							<div class="show-pro">
+								<img src="img/T1lyKTBybT1RCvBVdK" alt="">
+								<div class="pro-detail">
+									<span class="detail-icon"></span>
+									<em>
+										<span class="cityname">北京</span>
+										建国门
+									</em>
+								</div>
+							</div>
+							<p class="show-name">北京明宇丽雅饭店</p>
+							<p class="show-price">
+								<span>￥</span>
+								598
+								<em>起</em>
+							</p>
+						</a>
+					</li>
+					<li class="show-li">
+						<a href="">
+							<div class="show-pro">
+								<img src="img/T1lyKTBybT1RCvBVdK" alt="">
+								<div class="pro-detail">
+									<span class="detail-icon"></span>
+									<em>
+										<span class="cityname">北京</span>
+										建国门
+									</em>
+								</div>
+							</div>
+							<p class="show-name">北京明宇丽雅饭店</p>
+							<p class="show-price">
+								<span>￥</span>
+								598
+								<em>起</em>
+							</p>
+						</a>
+					</li>
+					<li class="show-li">
+						<a href="">
+							<div class="show-pro">
+								<img src="img/T1lyKTBybT1RCvBVdK" alt="">
+								<div class="pro-detail">
+									<span class="detail-icon"></span>
+									<em>
+										<span class="cityname">北京</span>
+										建国门
+									</em>
+								</div>
+							</div>
+							<p class="show-name">北京明宇丽雅饭店</p>
+							<p class="show-price">
+								<span>￥</span>
+								598
+								<em>起</em>
+							</p>
+						</a>
+					</li>
+				</ul>
+				<ul class="fl ovh w320">
+					<li class="show-ad">
+						<a href="">
+							<img src="img/T1VZLvBCdT1RCvBVdK.jpg" alt="">
+						</a>
+					</li>
+					<li class="show-ad">
+						<a href="">
+							<img src="img/T1VZLvBCdT1RCvBVdK.jpg" alt="">
+						</a>
+					</li>
+				</ul>	
+			</div>
+			<h2 class="nav-title">火车票预定</h2>
+			<ul class="jp-show-list">
+				<li><a href="">
+					<img src="img/T1ZRCTByCT1RCvBVdK.jpg" alt="">
+					<p class="fly-to">京沪高铁</p>
+					<p class="h_train_name">
+						<span>千里京沪一日还</span>
+					</p>
+				</a></li>
+				<li><a href="">
+					<img src="img/T1ZRCTByCT1RCvBVdK.jpg" alt="">
+					<p class="fly-to">京沪高铁</p>
+					<p class="h_train_name">
+						<span>千里京沪一日还</span>
+					</p>
+				</a></li>
+				<li><a href="">
+					<img src="img/T1ZRCTByCT1RCvBVdK.jpg" alt="">
+					<p class="fly-to">京沪高铁</p>
+					<p class="h_train_name">
+						<span>千里京沪一日还</span>
+					</p>
+				</a></li>
+				<li><a href="">
+					<img src="img/T1ZRCTByCT1RCvBVdK.jpg" alt="">
+					<p class="fly-to">京沪高铁</p>
+					<p class="h_train_name">
+						<span>千里京沪一日还</span>
+					</p>
+				</a></li>
+			</ul>
+		</div>
+		<div class="gome-foot-new">
+			<div class="gome-foot-new-body">
+				<div class="gome-foot-slogan">
+					<a href="">
+						<img src="img/T14ACTBvhT1RCvBVdK.png" alt="">
+					</a>
+				</div>
+				<div class="gome-foot-help">	
+					<dl>
+						<dt>机票预定帮助</dt>
+						<dd>
+							<ul>
+								<li><a href="">预定流程</a></li>
+								<li><a href="">购票需知</a></li>
+								<li><a href="">常见问题</a></li>
+								<li><a href="">退票及改签说明</a></li>
+								<li><a href="">行程单/发票/报销凭证</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>酒店预定帮助</dt>
+						<dd>
+							<ul>
+								<li><a href="">预定办理</a></li>
+								<li><a href="">如何办理入住</a></li>
+								<li><a href="">信用卡担保问题</a></li>
+								<li><a href="">常见问题说明</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>火车票预定帮助</dt>
+						<dd>
+							<ul>
+								<li><a href="">预定流程</a></li>
+								<li><a href="">购票需知</a></li>
+								<li><a href="">常见问题</a></li>
+								<li><a href="">退票及改签说明</a></li>
+								<li><a href="">优惠券说明</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>周边游预定帮助</dt>
+						<dd>
+							<ul>
+								<li><a href="">预定流程</a></li>
+								<li><a href="">常见问题</a></li>
+								<li><a href="">支付问题</a></li>
+								<li><a href="">发票问题</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>招商帮助</dt>
+						<dd>
+							<ul>
+								<li><a href="">招商入驻</a></li>
+								<li><a href="">入驻方式</a></li>
+								<li><a href="">入驻流程</a></li>			
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				<div class="gome-foot-code2">
+					<i>
+						<a href="">
+							<img src="img/T10SKTBbJQ1RCvBVdK.png" alt="">
+						</a>
+					</i>
+					<p>扫描下载客户端</p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>
+				<a href="">朝阳网络警察</a>
+				<a href="">诚信网站</a>
+				<a href="">可信网站信用评价</a>
+				<a href="">经营性网站备案信息</a>
+
+        		©2000-2017&nbsp;美信网络技术有限公司 版权所有 沪ICP备11009419号 沪B2-20120004号
+    
+			</p>
+		</div>
+</body>
+<script src="lib/jquery-3.2.1.js"></script>
+<!-- <script src='js/lvx_lunbo.js'></script> -->
+<script src='lvx_lunbo.js'></script>
+<script src='js/lvxing.js'></script>
+<script type="text/javascript" src = "js/cityselect.js"></script>
+<!-- <script src='lvxing.js'></script> -->
+<script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</html>
