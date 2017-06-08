@@ -76,6 +76,6 @@ function fill(){
 			lunboli.eq(i).children('a').css('background', src[i]);
 			// lunboli.children('a').eq(i).css('background-image', src[i]);
 	}
-
+	lunboli.eq(0).css('opacity', '1');
 }
 
